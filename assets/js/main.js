@@ -64,13 +64,14 @@ function initWhatsAppLinks() {
 // ===== Mobile nav toggle =====
 function initMobileNav() {
   const toggle = document.querySelector('.mobile-toggle');
+  const navRow = document.querySelector('.header-nav-row');
   const nav = document.querySelector('.nav-primary');
-  if (!toggle || !nav) return;
+  if (!toggle || !navRow || !nav) return;
   toggle.addEventListener('click', () => {
-    nav.classList.toggle('is-open');
+    navRow.classList.toggle('is-open');
   });
   nav.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => nav.classList.remove('is-open'));
+    a.addEventListener('click', () => navRow.classList.remove('is-open'));
   });
 }
 
