@@ -347,6 +347,19 @@ section {
  background: linear-gradient(180deg, var(--color-cream) 0%, var(--color-cream-warm) 100%);
 }
 
+/* Tech-pattern background image, 10% visibility — pure texture */
+.hero-bg-image {
+ position: absolute;
+ inset: 0;
+ background-image: url('../images/hero-bg.png');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ opacity: 0.10;
+ pointer-events: none;
+ z-index: 0;
+}
+
 .hero::before {
  content: "";
  position: absolute;
