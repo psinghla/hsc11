@@ -1,0 +1,567 @@
+{
+  "courses": [
+    {
+      "id": "cca",
+      "code": "CCA",
+      "name": "Certificate in Computer Applications",
+      "tagline": "The foundational govt-recognized course for office and clerk jobs",
+      "duration": "12 Months",
+      "eligibility": "11th Pass & 12th Pursuing",
+      "fee": "Contact for fees",
+      "batchTimings": ["Morning: 9:00 AM – 11:00 AM", "Afternoon: 2:00 PM – 4:00 PM", "Evening: 5:00 PM – 7:00 PM"],
+      "featured": true,
+      "category": "Flagship",
+      "highlight": "SETC written test exemption for Clerk Post",
+      "outcomes": [
+        "Eligible for Clerk Post (SETC written test exempted)",
+        "Govt. & private office assistant roles",
+        "Data entry operator positions",
+        "Foundation for advanced computer courses"
+      ],
+      "curriculum": [
+        "Computer Fundamentals",
+        "Windows Operating System",
+        "Word Processing",
+        "Typing Skills",
+        "Spread Sheet",
+        "Digital Presentation",
+        "Internet",
+        "Trouble Shooting",
+        "Programming Techniques",
+        "Overview of SQL-Server",
+        "HTML",
+        "Introduction of CSS",
+        "Java Script",
+        "OJT / Project & Viva",
+        "C Language",
+        "C++ with OOPS",
+        "VB Net",
+        "Employability Skills"
+      ]
+    },
+    {
+      "id": "cda",
+      "code": "CDA",
+      "name": "Certificate in Diploma in Accounting",
+      "tagline": "Computers + accounting + Tally with GST — built for accounting careers",
+      "duration": "12 Months",
+      "eligibility": "11th Pass & 12th Pursuing",
+      "fee": "Contact for fees",
+      "batchTimings": ["Morning: 9:00 AM – 11:00 AM", "Afternoon: 2:00 PM – 4:00 PM", "Evening: 5:00 PM – 7:00 PM"],
+      "featured": true,
+      "category": "Flagship",
+      "highlight": "Job-ready accounting skills with live Tally + GST practice",
+      "outcomes": [
+        "Junior accountant roles",
+        "Tally operator positions",
+        "GST filing assistant",
+        "Office accounts executive"
+      ],
+      "curriculum": [
+        "Computer Fundamentals",
+        "Windows Operating System",
+        "Word Processing",
+        "Typing Skills",
+        "Spread Sheet",
+        "Digital Presentation",
+        "Internet",
+        "Trouble Shooting",
+        "Fundamentals of Accounting",
+        "Principles of Accounting",
+        "Indian Financial System",
+        "Tally Software",
+        "Overview of Accounting",
+        "Forms of Organisation",
+        "Financial Statement Analysis",
+        "Taxation (Income Tax & GST)",
+        "Advance Tally with GST",
+        "Employability Skills",
+        "OJT / Project & Viva"
+      ]
+    },
+    {
+      "id": "acca",
+      "code": "ACCA",
+      "name": "Advance Certificate in Computer Applications",
+      "tagline": "Next-level certification building on CCA fundamentals",
+      "duration": "Contact for duration",
+      "eligibility": "12th Pass / Graduate",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Advanced",
+      "highlight": "Govt.-recognized advanced computer certification",
+      "outcomes": [
+        "Higher-grade office positions",
+        "Advanced computer operator roles",
+        "Foundation for specialization tracks"
+      ],
+      "curriculum": [
+        "Advanced Computer Concepts",
+        "Office Automation Tools",
+        "Advanced Spreadsheet & Database",
+        "Web Technologies",
+        "Programming Basics",
+        "Project Work",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "chna",
+      "code": "CHNA",
+      "name": "Computer Hardware & Networking Assistant",
+      "tagline": "Hands-on hardware repair, assembly, and networking",
+      "duration": "Contact for duration",
+      "eligibility": "10th Pass minimum",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": true,
+      "category": "Hardware",
+      "highlight": "Practical lab training on real hardware",
+      "outcomes": [
+        "Hardware repair technician",
+        "Network setup assistant",
+        "IT support roles",
+        "Open your own computer service shop"
+      ],
+      "curriculum": [
+        "Computer Hardware Fundamentals",
+        "Assembly & Disassembly",
+        "Operating System Installation",
+        "Troubleshooting & Repair",
+        "Networking Basics",
+        "LAN/WAN Configuration",
+        "Network Security Basics",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "dma",
+      "code": "DMA",
+      "name": "Digital Marketing Assistant",
+      "tagline": "SEO, social media, Meta Ads, Google Ads — the modern marketing stack",
+      "duration": "Contact for duration",
+      "eligibility": "12th Pass",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": true,
+      "category": "Digital",
+      "highlight": "High-demand skill with freelance & remote job potential",
+      "outcomes": [
+        "Digital marketing executive",
+        "Social media manager",
+        "Freelance ads specialist",
+        "E-commerce marketing roles"
+      ],
+      "curriculum": [
+        "Digital Marketing Fundamentals",
+        "SEO & SEM",
+        "Social Media Marketing",
+        "Google Ads & Meta Ads",
+        "Content Marketing",
+        "Email Marketing",
+        "Analytics & Reporting",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "cdp",
+      "code": "CDP",
+      "name": "Certificate in Designing & Publishing",
+      "tagline": "Graphic design, layout, and print publishing",
+      "duration": "Contact for duration",
+      "eligibility": "10th Pass minimum",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Creative",
+      "highlight": "Build a portfolio with industry-standard design tools",
+      "outcomes": [
+        "Graphic designer at print/digital studios",
+        "DTP operator",
+        "Freelance designer",
+        "In-house creative roles"
+      ],
+      "curriculum": [
+        "Design Principles",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "InDesign / Page Layout",
+        "Print Production",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "cwt",
+      "code": "CWT",
+      "name": "Certificate in Web Technology",
+      "tagline": "Build websites from scratch — HTML, CSS, JS and beyond",
+      "duration": "Contact for duration",
+      "eligibility": "12th Pass",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Programming",
+      "highlight": "Project-based learning — build real websites",
+      "outcomes": [
+        "Junior web developer",
+        "Frontend developer",
+        "Freelance web designer",
+        "Foundation for full-stack careers"
+      ],
+      "curriculum": [
+        "HTML5 & Semantic Markup",
+        "CSS3 & Responsive Design",
+        "JavaScript Fundamentals",
+        "DOM Manipulation",
+        "Web Hosting & Deployment",
+        "Project Work",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "c",
+      "code": "C",
+      "name": "C Programming",
+      "tagline": "The foundation language for all systems programming",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "12th Pass / Open",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Programming",
+      "highlight": "Essential for engineering students & competitive exams",
+      "outcomes": [
+        "Strong programming foundation",
+        "Engineering exam preparation",
+        "Foundation for C++, Java, embedded systems"
+      ],
+      "curriculum": [
+        "C Language Basics",
+        "Data Types & Operators",
+        "Control Structures",
+        "Functions & Arrays",
+        "Pointers",
+        "Structures & File I/O",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "cpp",
+      "code": "C++",
+      "name": "C++ with OOPS",
+      "tagline": "Object-oriented programming for serious developers",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "C knowledge recommended",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Programming",
+      "highlight": "OOPS concepts essential for software engineering careers",
+      "outcomes": [
+        "Software engineer foundation",
+        "Engineering students' core requirement",
+        "Foundation for Java, C#, modern languages"
+      ],
+      "curriculum": [
+        "C++ Basics",
+        "Classes & Objects",
+        "Inheritance & Polymorphism",
+        "Encapsulation & Abstraction",
+        "Templates & STL",
+        "File Handling",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "fc",
+      "code": "FC",
+      "name": "Foundation Course in Computers",
+      "tagline": "Start here if you've never touched a computer",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "Open to all",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Foundation",
+      "highlight": "Perfect first step for absolute beginners",
+      "outcomes": [
+        "Basic computer literacy",
+        "Foundation for any advanced course",
+        "Confidence with digital tools"
+      ],
+      "curriculum": [
+        "Computer Basics",
+        "Windows OS",
+        "Internet & Email",
+        "Basic Office Applications",
+        "Digital Literacy"
+      ]
+    },
+    {
+      "id": "java",
+      "code": "JAVA",
+      "name": "Java Programming",
+      "tagline": "The enterprise programming language — high job demand",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "Programming basics recommended",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": true,
+      "category": "Programming",
+      "highlight": "Most-demanded skill for software jobs",
+      "outcomes": [
+        "Java developer",
+        "Backend developer",
+        "Foundation for Android development",
+        "Enterprise application developer"
+      ],
+      "curriculum": [
+        "Core Java",
+        "OOPS in Java",
+        "Collections Framework",
+        "Exception Handling",
+        "JDBC & Database",
+        "Servlets & JSP Basics",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "cift",
+      "code": "CIFT",
+      "name": "Certificate in IT & Financial Tools",
+      "tagline": "Combine IT skills with financial software expertise",
+      "duration": "Contact for duration",
+      "eligibility": "12th Pass",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Finance",
+      "highlight": "Dual-skill course for finance + tech career paths",
+      "outcomes": [
+        "Accounts executive",
+        "Banking back-office roles",
+        "Financial data analyst (junior)",
+        "Curriculum details available on enquiry"
+      ],
+      "curriculum": [
+        "IT Fundamentals",
+        "Financial Software Tools",
+        "Tally / ERP Basics",
+        "Excel for Finance",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "ccba",
+      "code": "CCBA",
+      "name": "Certificate Course in Business Applications",
+      "tagline": "Computer applications tailored for business operations",
+      "duration": "Contact for duration",
+      "eligibility": "12th Pass",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Business",
+      "highlight": "Business-focused computer skills",
+      "outcomes": [
+        "Business office assistant",
+        "Operations executive",
+        "Curriculum details available on enquiry"
+      ],
+      "curriculum": [
+        "Business Computing Basics",
+        "MS Office Advanced",
+        "Database for Business",
+        "Business Communication",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "csd",
+      "code": "CSD",
+      "name": "Certificate in Software Development",
+      "tagline": "Programming + project work — build software, not just learn it",
+      "duration": "Contact for duration",
+      "eligibility": "12th Pass",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Programming",
+      "highlight": "Project-driven software development training",
+      "outcomes": [
+        "Junior software developer",
+        "Programming foundation for engineering students",
+        "Curriculum details available on enquiry"
+      ],
+      "curriculum": [
+        "Programming Fundamentals",
+        "Software Engineering Basics",
+        "Database & SQL",
+        "Project Development",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "vbnet",
+      "code": "VB.Net",
+      "name": "Visual Basic .NET",
+      "tagline": "Microsoft's RAD framework for Windows applications",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "Programming basics recommended",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Programming",
+      "highlight": "Build Windows desktop apps with Microsoft tools",
+      "outcomes": [
+        ".NET developer",
+        "Windows application developer",
+        "Enterprise software roles"
+      ],
+      "curriculum": [
+        "VB.NET Fundamentals",
+        ".NET Framework",
+        "Windows Forms",
+        "Database with ADO.NET",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "autocad",
+      "code": "AutoCAD",
+      "name": "AutoCAD Design",
+      "tagline": "Industry-standard CAD for engineers, architects, and designers",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "Open to all",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": true,
+      "category": "Design",
+      "highlight": "Essential for civil/mechanical/architecture careers",
+      "outcomes": [
+        "AutoCAD draftsman",
+        "Architectural assistant",
+        "Mechanical design support",
+        "Freelance CAD work"
+      ],
+      "curriculum": [
+        "AutoCAD Interface & Basics",
+        "2D Drafting",
+        "3D Modeling Basics",
+        "Layers, Blocks & Annotations",
+        "Plotting & Printing",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "tally",
+      "code": "Tally",
+      "name": "Tally with GST",
+      "tagline": "India's most-used accounting software with full GST training",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "Basic computer knowledge",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": true,
+      "category": "Finance",
+      "highlight": "Most-asked skill for accountant jobs in India",
+      "outcomes": [
+        "Tally operator",
+        "Junior accountant",
+        "GST filing assistant",
+        "Shop/business accountant"
+      ],
+      "curriculum": [
+        "Tally Prime Fundamentals",
+        "Company Creation & Configuration",
+        "Vouchers & Inventory",
+        "GST in Tally",
+        "TDS & TCS",
+        "Financial Statements & Reports",
+        "Payroll Basics"
+      ]
+    },
+    {
+      "id": "dtp",
+      "code": "DTP",
+      "name": "Desktop Publishing (DTP)",
+      "tagline": "Page layout and print design for the publishing industry",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "Open to all",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Creative",
+      "highlight": "Skills for print shops, newspapers, publishers",
+      "outcomes": [
+        "DTP operator",
+        "Print shop designer",
+        "Layout artist",
+        "Freelance publishing work"
+      ],
+      "curriculum": [
+        "PageMaker / InDesign",
+        "Photoshop Basics",
+        "CorelDRAW",
+        "Print Layout & Design",
+        "Output & Printing"
+      ]
+    },
+    {
+      "id": "php",
+      "code": "PHP",
+      "name": "PHP with MySQL",
+      "tagline": "Server-side web development — power dynamic websites",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "HTML/CSS basics recommended",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": false,
+      "category": "Programming",
+      "highlight": "Build real web applications and CMS sites",
+      "outcomes": [
+        "PHP developer",
+        "WordPress developer",
+        "Freelance web developer",
+        "Full-stack web roles"
+      ],
+      "curriculum": [
+        "PHP Fundamentals",
+        "Forms & Validation",
+        "MySQL Database",
+        "CRUD Operations",
+        "Sessions & Authentication",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "android",
+      "code": "ANDROID",
+      "name": "Android App Development",
+      "tagline": "Build mobile apps for India's largest mobile platform",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "Java knowledge recommended",
+      "fee": "Contact for fees",
+      "batchTimings": ["Multiple batch options — contact us"],
+      "featured": true,
+      "category": "Mobile",
+      "highlight": "Build apps you can actually publish on Play Store",
+      "outcomes": [
+        "Android developer",
+        "Mobile app developer",
+        "Freelance app development",
+        "Startup engineering roles"
+      ],
+      "curriculum": [
+        "Android Studio Setup",
+        "Activities & Layouts",
+        "UI Components",
+        "Data Storage",
+        "API Integration",
+        "Publishing to Play Store",
+        "Project App Development"
+      ]
+    }
+  ]
+}
