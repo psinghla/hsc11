@@ -9,7 +9,7 @@ const HARTRON_CONFIG = {
   whatsappAlt: '919812086917',
   phone1: '92158-38058',
   phone2: '98120-86917',
-  email: 'singlahisar@yahoo.com', // TODO: replace with real email
+  email: 'info@hartronhisar.com', // TODO: replace with real email
   address: 'Between Bus Stand & Nagori Gate, Near Gurudwara, Grover Market, Hisar',
   mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.5!2d75.7228!3d29.1492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSGFydHJvbiBTa2lsbCBDZW50cmUgSGlzYXI!5e0!3m2!1sen!2sin!4v1700000000000'
 };
@@ -110,6 +110,35 @@ async function loadCourses() {
   }
 }
 
+// ===== Category illustrations (SVG icons by course category) =====
+const CATEGORY_ICONS = {
+  'Flagship': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="24,5 29,18 43,19 32,28 36,42 24,34 12,42 16,28 5,19 19,18" fill="#A6224B" fill-opacity="0.15" class="accent-fill"/><circle cx="24" cy="24" r="3" fill="#1A4DA5"/></svg>`,
+
+  'Advanced': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6,38 16,28 24,32 36,16 42,20"/><polyline points="36,16 36,12 32,12"/><circle cx="16" cy="28" r="2.5" fill="#A6224B" class="accent-fill" stroke="none"/><circle cx="24" cy="32" r="2.5" fill="#A6224B" class="accent-fill" stroke="none"/></svg>`,
+
+  'Hardware': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="12" y="12" width="24" height="24" rx="2"/><rect x="18" y="18" width="12" height="12" rx="1" fill="#A6224B" fill-opacity="0.18" class="accent-fill"/><line x1="20" y1="12" x2="20" y2="8"/><line x1="28" y1="12" x2="28" y2="8"/><line x1="20" y1="40" x2="20" y2="36"/><line x1="28" y1="40" x2="28" y2="36"/><line x1="12" y1="20" x2="8" y2="20"/><line x1="12" y1="28" x2="8" y2="28"/><line x1="40" y1="20" x2="36" y2="20"/><line x1="40" y1="28" x2="36" y2="28"/></svg>`,
+
+  'Digital': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="16"/><path d="M8 24 H40"/><path d="M24 8 C29 14, 29 34, 24 40"/><path d="M24 8 C19 14, 19 34, 24 40"/><circle cx="24" cy="14" r="3" fill="#A6224B" class="accent-fill" stroke="none"/></svg>`,
+
+  'Creative': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6 C12 6 6 14 6 24 C6 30 10 32 14 32 L18 32 C19 32 20 33 20 34 L20 38 C20 41 22 42 24 42 C36 42 42 32 42 22 C42 12 36 6 24 6 Z"/><circle cx="14" cy="20" r="2.5" fill="#A6224B" class="accent-fill" stroke="none"/><circle cx="20" cy="14" r="2.5" fill="#1A4DA5" stroke="none"/><circle cx="30" cy="14" r="2.5" fill="#A6224B" class="accent-fill" stroke="none"/><circle cx="34" cy="22" r="2.5" fill="#1A4DA5" stroke="none"/></svg>`,
+
+  'Programming': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16,16 8,24 16,32"/><polyline points="32,16 40,24 32,32"/><line x1="28" y1="12" x2="20" y2="36" stroke="#A6224B" class="accent-fill"/></svg>`,
+
+  'Foundation': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="32" height="22" rx="2"/><line x1="4" y1="38" x2="44" y2="38"/><rect x="14" y="18" width="20" height="10" rx="1" fill="#A6224B" fill-opacity="0.18" class="accent-fill"/><circle cx="24" cy="34" r="1.5" fill="#1A4DA5" stroke="none"/></svg>`,
+
+  'Finance': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="8" width="28" height="32" rx="3"/><line x1="16" y1="16" x2="32" y2="16"/><line x1="20" y1="22" x2="28" y2="22"/><path d="M18 22 L18 26 C18 28 19 30 22 30 L26 30 L18 38" stroke-width="2" fill="none"/><circle cx="32" cy="32" r="3" fill="#A6224B" class="accent-fill" stroke="none"/></svg>`,
+
+  'Business': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="14" width="36" height="26" rx="2"/><path d="M18 14 L18 10 C18 9 19 8 20 8 L28 8 C29 8 30 9 30 10 L30 14"/><line x1="6" y1="24" x2="42" y2="24"/><rect x="20" y="22" width="8" height="4" fill="#A6224B" class="accent-fill" stroke="none"/></svg>`,
+
+  'Design': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 40 L18 8 L24 12 L20 22 L34 30 L38 40 Z" fill="#A6224B" fill-opacity="0.12" class="accent-fill"/><circle cx="18" cy="8" r="2" fill="#1A4DA5" stroke="none"/><line x1="20" y1="22" x2="34" y2="30"/></svg>`,
+
+  'Mobile': `<svg viewBox="0 0 48 48" fill="none" stroke="#1A4DA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="6" width="20" height="36" rx="3"/><line x1="22" y1="38" x2="26" y2="38"/><rect x="17" y="11" width="14" height="22" rx="1" fill="#A6224B" fill-opacity="0.15" class="accent-fill"/><circle cx="20" cy="18" r="1.5" fill="#1A4DA5" stroke="none"/><circle cx="28" cy="18" r="1.5" fill="#1A4DA5" stroke="none"/><circle cx="20" cy="24" r="1.5" fill="#A6224B" class="accent-fill" stroke="none"/><circle cx="28" cy="24" r="1.5" fill="#1A4DA5" stroke="none"/></svg>`
+};
+
+function getCategoryIcon(category) {
+  return CATEGORY_ICONS[category] || CATEGORY_ICONS['Foundation'];
+}
+
 // ===== Course card renderer =====
 function renderCourseCard(course, basePath = '') {
   const featured = course.featured ? 'course-card-featured' : '';
@@ -117,8 +146,11 @@ function renderCourseCard(course, basePath = '') {
   return `
     <a href="${url}" class="course-card ${featured}">
       <div class="course-card-head">
-        <span class="course-code">${course.code}</span>
-        <span class="course-category">${course.category}</span>
+        <div class="course-thumb">${getCategoryIcon(course.category)}</div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px;">
+          <span class="course-code">${course.code}</span>
+          <span class="course-category">${course.category}</span>
+        </div>
       </div>
       <h3 class="course-name">${course.name}</h3>
       <p class="course-tagline">${course.tagline}</p>
