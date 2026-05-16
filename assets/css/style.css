@@ -197,7 +197,7 @@ section {
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding-block: 16px;
+ padding-block: 10px;
 }
 
 .brand {
@@ -224,6 +224,17 @@ section {
  font-weight: 600;
  font-size: 1.25rem;
  box-shadow: var(--shadow-blue);
+}
+
+.brand-logo {
+ height: 56px;
+ width: auto;
+ display: block;
+ object-fit: contain;
+}
+
+@media (max-width: 600px) {
+ .brand-logo { height: 44px; }
 }
 
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
