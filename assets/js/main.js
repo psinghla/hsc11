@@ -142,9 +142,16 @@ function getCategoryIcon(category) {
 // ===== Course card renderer =====
 function renderCourseCard(course, basePath = '') {
   const featured = course.featured ? 'course-card-featured' : '';
+  const hasBanner = !!course.image;
+  const bannerClass = hasBanner ? 'course-card-banner-wrap' : '';
   const url = `${basePath}courses/${course.id}.html`;
+  const bannerHtml = hasBanner
+    ? `<div class="course-card-banner" style="background-image: url('${basePath}${course.image}');"></div>`
+    : '';
   return `
-    <a href="${url}" class="course-card ${featured}">
+    <a href="${url}" class="course-card ${featured} ${bannerClass}">
+      ${bannerHtml}
+      <div class="course-card-inner">
       <div class="course-card-head">
         <div class="course-thumb">${getCategoryIcon(course.category)}</div>
         <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px;">
@@ -167,6 +174,7 @@ function renderCourseCard(course, basePath = '') {
       <div class="course-card-link">
         View course details
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
       </div>
     </a>
   `;

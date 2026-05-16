@@ -1620,3 +1620,94 @@ section {
   color: var(--color-accent-light) !important;
   font-style: italic;
 }
+
+/* =================================================================
+   COURSE CARD BANNER (for courses with hero images)
+   ================================================================= */
+.course-card-banner-wrap {
+  padding: 0; /* override default card padding to let banner reach edges */
+}
+
+.course-card-banner-wrap .course-card-inner {
+  padding: 24px 28px 28px;
+}
+
+.course-card-banner {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--color-bg-subtle);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.course-card-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 60%, rgba(15, 45, 99, 0.18) 100%);
+  pointer-events: none;
+}
+
+.course-card-banner-wrap:hover .course-card-banner {
+  filter: brightness(1.05) saturate(1.1);
+}
+
+/* =================================================================
+   STUDENTS-FUTURE SECTION (about.html)
+   ================================================================= */
+.outcome-section {
+  background: linear-gradient(180deg, var(--color-cream) 0%, var(--color-cream-warm) 100%);
+  border-block: 1px solid var(--color-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.outcome-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: clamp(40px, 6vw, 80px);
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .outcome-grid { grid-template-columns: 1fr; }
+}
+
+.outcome-image {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 16/10;
+  background: var(--color-bg-subtle);
+  box-shadow: var(--shadow-lg);
+}
+
+.outcome-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.outcome-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 50%, rgba(26, 77, 165, 0.12) 100%);
+  pointer-events: none;
+}
+
+.outcome-content .eyebrow { display: block; margin-bottom: 16px; }
+.outcome-content h2 { margin-bottom: 20px; }
+.outcome-content p { color: var(--color-text-muted); margin-bottom: 16px; font-size: 1.0625rem; }
+.outcome-content .outcomes-list { margin-top: 24px; }
+
+.outcome-caption {
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: var(--color-text-soft);
+  text-align: center;
+  font-style: italic;
+}

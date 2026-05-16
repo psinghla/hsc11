@@ -8,7 +8,11 @@
       "duration": "12 Months",
       "eligibility": "11th Pass & 12th Pursuing",
       "fee": "Contact for fees",
-      "batchTimings": ["Morning: 9:00 AM – 11:00 AM", "Afternoon: 2:00 PM – 4:00 PM", "Evening: 5:00 PM – 7:00 PM"],
+      "batchTimings": [
+        "Morning: 9:00 AM – 11:00 AM",
+        "Afternoon: 2:00 PM – 4:00 PM",
+        "Evening: 5:00 PM – 7:00 PM"
+      ],
       "featured": true,
       "category": "Flagship",
       "highlight": "SETC written test exemption for Clerk Post",
@@ -47,7 +51,11 @@
       "duration": "12 Months",
       "eligibility": "11th Pass & 12th Pursuing",
       "fee": "Contact for fees",
-      "batchTimings": ["Morning: 9:00 AM – 11:00 AM", "Afternoon: 2:00 PM – 4:00 PM", "Evening: 5:00 PM – 7:00 PM"],
+      "batchTimings": [
+        "Morning: 9:00 AM – 11:00 AM",
+        "Afternoon: 2:00 PM – 4:00 PM",
+        "Evening: 5:00 PM – 7:00 PM"
+      ],
       "featured": true,
       "category": "Flagship",
       "highlight": "Job-ready accounting skills with live Tally + GST practice",
@@ -87,7 +95,9 @@
       "duration": "Contact for duration",
       "eligibility": "12th Pass / Graduate",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Advanced",
       "highlight": "Govt.-recognized advanced computer certification",
@@ -114,7 +124,9 @@
       "duration": "Contact for duration",
       "eligibility": "10th Pass minimum",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": true,
       "category": "Hardware",
       "highlight": "Practical lab training on real hardware",
@@ -143,7 +155,9 @@
       "duration": "Contact for duration",
       "eligibility": "12th Pass",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": true,
       "category": "Digital",
       "highlight": "High-demand skill with freelance & remote job potential",
@@ -162,7 +176,8 @@
         "Email Marketing",
         "Analytics & Reporting",
         "Curriculum details available on enquiry"
-      ]
+      ],
+      "image": "assets/images/course-dma.png"
     },
     {
       "id": "cdp",
@@ -172,7 +187,9 @@
       "duration": "Contact for duration",
       "eligibility": "10th Pass minimum",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Creative",
       "highlight": "Build a portfolio with industry-standard design tools",
@@ -199,7 +216,9 @@
       "duration": "Contact for duration",
       "eligibility": "12th Pass",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Programming",
       "highlight": "Project-based learning — build real websites",
@@ -227,7 +246,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "12th Pass / Open",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Programming",
       "highlight": "Essential for engineering students & competitive exams",
@@ -254,7 +275,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "C knowledge recommended",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Programming",
       "highlight": "OOPS concepts essential for software engineering careers",
@@ -281,7 +304,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "Open to all",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Foundation",
       "highlight": "Perfect first step for absolute beginners",
@@ -306,7 +331,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "Programming basics recommended",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": true,
       "category": "Programming",
       "highlight": "Most-demanded skill for software jobs",
@@ -334,7 +361,9 @@
       "duration": "Contact for duration",
       "eligibility": "12th Pass",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Finance",
       "highlight": "Dual-skill course for finance + tech career paths",
@@ -360,7 +389,9 @@
       "duration": "Contact for duration",
       "eligibility": "12th Pass",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Business",
       "highlight": "Business-focused computer skills",
@@ -385,7 +416,9 @@
       "duration": "Contact for duration",
       "eligibility": "12th Pass",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Programming",
       "highlight": "Project-driven software development training",
@@ -410,7 +443,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "Programming basics recommended",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Programming",
       "highlight": "Build Windows desktop apps with Microsoft tools",
@@ -435,7 +470,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "Open to all",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": true,
       "category": "Design",
       "highlight": "Essential for civil/mechanical/architecture careers",
@@ -462,7 +499,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "Basic computer knowledge",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": true,
       "category": "Finance",
       "highlight": "Most-asked skill for accountant jobs in India",
@@ -480,7 +519,8 @@
         "TDS & TCS",
         "Financial Statements & Reports",
         "Payroll Basics"
-      ]
+      ],
+      "image": "assets/images/course-tally.png"
     },
     {
       "id": "dtp",
@@ -490,7 +530,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "Open to all",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Creative",
       "highlight": "Skills for print shops, newspapers, publishers",
@@ -516,7 +558,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "HTML/CSS basics recommended",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": false,
       "category": "Programming",
       "highlight": "Build real web applications and CMS sites",
@@ -543,7 +587,9 @@
       "duration": "Short-term (Contact for details)",
       "eligibility": "Java knowledge recommended",
       "fee": "Contact for fees",
-      "batchTimings": ["Multiple batch options — contact us"],
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
       "featured": true,
       "category": "Mobile",
       "highlight": "Build apps you can actually publish on Play Store",
