@@ -10,7 +10,7 @@ const HARTRON_CONFIG = {
   phone1: '92158-38058',
   phone2: '98120-86917',
   email: 'info@hartronhisar.com', // TODO: replace with real email
-  address: 'Between Bus Stand & Nagori Gate, Near Gurudwara, Grover Market, Hisar',
+  address: 'Between Nagori Gate & Bus Stand, Near Gurudwara, Hisar',
   mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.5!2d75.7228!3d29.1492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSGFydHJvbiBTa2lsbCBDZW50cmUgSGlzYXI!5e0!3m2!1sen!2sin!4v1700000000000'
 };
 

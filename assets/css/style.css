@@ -224,17 +224,17 @@ section {
 }
 
 .brand-logo-parent {
- height: 44px;
+ height: 32px;
  width: auto;
  display: block;
  object-fit: contain;
- opacity: 0.9;
+ opacity: 0.85;
 }
 
 .brand-divider {
  display: inline-block;
  width: 1px;
- height: 40px;
+ height: 36px;
  background: var(--color-border-strong);
  flex-shrink: 0;
 }
@@ -242,8 +242,8 @@ section {
 @media (max-width: 768px) {
  .brand { gap: 10px; }
  .brand-logo { height: 50px; }
- .brand-logo-parent { height: 34px; }
- .brand-divider { height: 28px; }
+ .brand-logo-parent { height: 26px; }
+ .brand-divider { height: 26px; }
 }
 
 @media (max-width: 480px) {
@@ -446,9 +446,13 @@ section {
 
 .btn-accent {
  background: var(--color-accent);
- color: var(--color-white);
+ color: #FFFFFF;
+ font-weight: 700;
+ letter-spacing: 0.01em;
+ text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+ box-shadow: 0 4px 12px rgba(166, 34, 75, 0.25);
 }
-.btn-accent:hover { background: var(--color-accent-dark); transform: translateY(-1px); }
+.btn-accent:hover { background: var(--color-accent-dark); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(166, 34, 75, 0.35); }
 
 .btn-whatsapp {
  background: var(--color-whatsapp);
@@ -784,8 +788,38 @@ section {
 
 .course-card:hover::before { transform: scaleY(1); }
 
-.course-card-featured { border-color: var(--color-primary-light); background: linear-gradient(180deg, var(--color-white) 0%, rgba(26, 77, 165, 0.02) 100%); }
-.course-card-featured::before { transform: scaleY(1); background: var(--color-accent); }
+.course-card-featured { 
+ border-color: var(--color-primary-light); 
+ background: linear-gradient(180deg, var(--color-white) 0%, rgba(26, 77, 165, 0.03) 100%);
+ box-shadow: 0 4px 12px rgba(26, 77, 165, 0.06);
+}
+.course-card-featured::before { transform: scaleY(1); background: var(--color-accent); width: 6px; }
+
+/* Flagship ribbon badge — sits at top-right corner */
+.course-card-featured::after {
+ content: "★ FLAGSHIP";
+ position: absolute;
+ top: 14px;
+ right: -38px;
+ transform: rotate(35deg);
+ background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+ color: #FFFFFF;
+ font-family: var(--font-body);
+ font-size: 0.62rem;
+ font-weight: 800;
+ letter-spacing: 0.12em;
+ padding: 4px 40px;
+ box-shadow: 0 2px 6px rgba(166, 34, 75, 0.3);
+ z-index: 3;
+ text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+ pointer-events: none;
+}
+
+/* When the featured card has a banner image at top, anchor badge differently */
+.course-card-banner-wrap.course-card-featured::after {
+ top: 22px;
+ right: -36px;
+}
 
 .course-card-head {
  display: flex;

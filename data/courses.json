@@ -127,7 +127,7 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": true,
+      "featured": false,
       "category": "Hardware",
       "highlight": "Practical lab training on real hardware",
       "outcomes": [
@@ -158,7 +158,7 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": true,
+      "featured": false,
       "category": "Digital",
       "highlight": "High-demand skill with freelance & remote job potential",
       "outcomes": [
@@ -307,8 +307,8 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": false,
-      "category": "Foundation",
+      "featured": true,
+      "category": "Flagship",
       "highlight": "Perfect first step for absolute beginners",
       "outcomes": [
         "Basic computer literacy",
@@ -334,7 +334,7 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": true,
+      "featured": false,
       "category": "Programming",
       "highlight": "Most-demanded skill for software jobs",
       "outcomes": [
@@ -354,6 +354,39 @@
       ]
     },
     {
+      "id": "python",
+      "code": "PYTHON",
+      "name": "Python Programming",
+      "tagline": "The most in-demand language for AI, data science, and modern development",
+      "duration": "Short-term (Contact for details)",
+      "eligibility": "12th Pass / Open to all",
+      "fee": "Contact for fees",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": true,
+      "category": "Flagship",
+      "highlight": "Foundation for AI, ML, Data Science, and web development careers",
+      "outcomes": [
+        "Python developer roles",
+        "Data analyst / Junior data scientist",
+        "Automation & scripting jobs",
+        "Foundation for AI/ML specialization",
+        "Freelance Python development"
+      ],
+      "curriculum": [
+        "Python Fundamentals & Syntax",
+        "Data Types, Variables & Operators",
+        "Control Flow & Functions",
+        "Lists, Tuples, Dictionaries, Sets",
+        "Object-Oriented Programming",
+        "File Handling & Exception Handling",
+        "Working with Libraries (NumPy, Pandas basics)",
+        "Introduction to Web Scraping",
+        "Project Work"
+      ]
+    },
+    {
       "id": "cift",
       "code": "CIFT",
       "name": "Certificate in IT & Financial Tools",
@@ -364,8 +397,8 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": false,
-      "category": "Finance",
+      "featured": true,
+      "category": "Flagship",
       "highlight": "Dual-skill course for finance + tech career paths",
       "outcomes": [
         "Accounts executive",
@@ -392,8 +425,8 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": false,
-      "category": "Business",
+      "featured": true,
+      "category": "Flagship",
       "highlight": "Business-focused computer skills",
       "outcomes": [
         "Business office assistant",
@@ -473,7 +506,7 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": true,
+      "featured": false,
       "category": "Design",
       "highlight": "Essential for civil/mechanical/architecture careers",
       "outcomes": [
@@ -502,7 +535,7 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": true,
+      "featured": false,
       "category": "Finance",
       "highlight": "Most-asked skill for accountant jobs in India",
       "outcomes": [
@@ -590,7 +623,7 @@
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
-      "featured": true,
+      "featured": false,
       "category": "Mobile",
       "highlight": "Build apps you can actually publish on Play Store",
       "outcomes": [
