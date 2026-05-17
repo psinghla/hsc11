@@ -101,7 +101,7 @@ async function loadCourses() {
   const isInCoursesDir = location.pathname.includes('/courses/');
   const dataPath = isInCoursesDir ? '../data/courses.json' : 'data/courses.json';
   try {
-    const res = await fetch(dataPath);
+    const res = await fetch(dataPath + '?v=20260516');
     const data = await res.json();
     COURSES_CACHE = data.courses;
     return COURSES_CACHE;
