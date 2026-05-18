@@ -1,0 +1,53 @@
+# Hartron Skill Centre, Hisar
+
+> NCVET-approved Govt. of Haryana franchise computer training institute in Hisar, Haryana. Established 1999. Has trained 20,000+ students. Authorised franchisee of HARTRON (Haryana State Electronics Development Corporation Limited).
+
+## Key facts
+- Established: 1999
+- Years of operation: 27+
+- Total students trained: 20,000+
+- Total courses offered: 21
+- Recognition: NCVET-approved, NSQF-aligned, Government of Haryana
+- Head: Bhupender Singla
+- Address: Between Nagori Gate & Bus Stand, Near Gurudwara, Hisar, Haryana 125001
+- Phone: +91-92158-38058, +91-98120-86917
+- Hours: Monday–Saturday, 9:00 AM – 7:00 PM
+- Areas served: Hisar, Hisar Cantt, Balsamand, Mirzapur, Khedar, Agroha, Mangali, Nalwa, Sisai, Adampur, Hansi, Uklana, Barwala, Bhuna, Narnaund and surrounding villages within 40 km of Hisar
+
+## Flagship Courses
+- [CCA — Certificate in Computer Applications](https://hartronhisar.in/courses/cca): 12-month flagship course. Grants exemption from SETC written test for Clerk Post in Haryana government.
+- [CDA — Certificate Diploma in Accounting](https://hartronhisar.in/courses/cda): 12-month accounting course with Tally and GST.
+- [Python Programming](https://hartronhisar.in/courses/python): Modern programming foundation for AI, data science, web development.
+- [CIFT — Certificate in IT & Financial Tools](https://hartronhisar.in/courses/cift): Combined IT and finance career track.
+- [CCBA — Certificate Course in Business Applications](https://hartronhisar.in/courses/ccba): Business-focused computer skills.
+- [FC — Foundation Course in Computers](https://hartronhisar.in/courses/fc): Entry-level for beginners.
+
+## All Courses
+- [CCA — Certificate in Computer Applications](https://hartronhisar.in/courses/cca)
+- [CDA — Certificate Diploma in Accounting](https://hartronhisar.in/courses/cda)
+- [ACCA — Advance Certificate in Computer Applications](https://hartronhisar.in/courses/acca)
+- [CHNA — Computer Hardware & Networking Assistant](https://hartronhisar.in/courses/chna)
+- [DMA — Digital Marketing Assistant](https://hartronhisar.in/courses/dma)
+- [CDP — Certificate in Designing & Publishing](https://hartronhisar.in/courses/cdp)
+- [CWT — Certificate in Web Technology](https://hartronhisar.in/courses/cwt)
+- [C Programming](https://hartronhisar.in/courses/c)
+- [C++ with OOPS](https://hartronhisar.in/courses/cpp)
+- [FC — Foundation Course](https://hartronhisar.in/courses/fc)
+- [Java Programming](https://hartronhisar.in/courses/java)
+- [Python Programming](https://hartronhisar.in/courses/python)
+- [CIFT — Certificate in IT & Financial Tools](https://hartronhisar.in/courses/cift)
+- [CCBA — Certificate Course in Business Applications](https://hartronhisar.in/courses/ccba)
+- [CSD — Certificate in Software Development](https://hartronhisar.in/courses/csd)
+- [VB.Net — Visual Basic .NET](https://hartronhisar.in/courses/vbnet)
+- [AutoCAD Design](https://hartronhisar.in/courses/autocad)
+- [Tally with GST](https://hartronhisar.in/courses/tally)
+- [DTP — Desktop Publishing](https://hartronhisar.in/courses/dtp)
+- [PHP with MySQL](https://hartronhisar.in/courses/php)
+- [Android App Development](https://hartronhisar.in/courses/android)
+
+## Key Pages
+- [Home](https://hartronhisar.in/): Overview and featured courses
+- [About](https://hartronhisar.in/about): History, head's message, three pillars
+- [Courses](https://hartronhisar.in/courses): All 21 courses with filters
+- [Gallery](https://hartronhisar.in/gallery): Classrooms and student life
+- [Contact](https://hartronhisar.in/contact): Enquiry form, map, hours
