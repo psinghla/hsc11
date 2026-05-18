@@ -2021,3 +2021,149 @@ section {
   text-align: center;
   font-style: italic;
 }
+
+/* ==========================================================================
+   FAQ items (used on course detail pages and any FAQ section)
+   ========================================================================== */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.faq-item:hover {
+  border-color: var(--color-primary-light);
+}
+
+.faq-item[open] {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(26, 77, 165, 0.08);
+}
+
+.faq-item summary {
+  padding: 18px 24px;
+  font-weight: 600;
+  font-size: 1.025rem;
+  color: var(--color-text);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item summary::after {
+  content: "+";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(26, 77, 165, 0.08);
+  transition: var(--transition);
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+  background: var(--color-primary);
+  color: white;
+  transform: rotate(180deg);
+}
+
+.faq-item p {
+  padding: 0 24px 20px;
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Area-served pills (local SEO)
+   ========================================================================== */
+.area-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 18px;
+  background: var(--color-white);
+  border: 1.5px solid var(--color-border);
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: var(--transition);
+}
+
+.area-pill::before {
+  content: "📍";
+  font-size: 0.85rem;
+  margin-right: 6px;
+}
+
+.area-pill:hover {
+  border-color: var(--color-primary);
+  background: rgba(26, 77, 165, 0.04);
+  color: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   Footer Social Icons
+   ========================================================================== */
+.footer-social {
+  display: flex;
+  gap: 12px;
+  padding: 20px 0;
+  margin-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 8px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.85);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.footer-social a svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 600px) {
+  .footer-social {
+    justify-content: center;
+  }
+}
