@@ -74,12 +74,26 @@ function buildCourseSchema(course) {
         }
       }
     },
-    "offers": {
-      "@type": "Offer",
-      "category": "Educational",
-      "availability": "https://schema.org/InStock",
-      "url": `${SITE.domain}/courses/${course.id}`
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Standard fee (with installment option)",
+        "category": "Educational",
+        "price": course.feeInstallment,
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": `${SITE.domain}/courses/${course.id}`
+      },
+      {
+        "@type": "Offer",
+        "name": "Lumpsum fee (paid upfront)",
+        "category": "Educational",
+        "price": course.feeLumpsum,
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": `${SITE.domain}/courses/${course.id}`
+      }
+    ]
   };
 }
 
@@ -161,8 +175,8 @@ function template(course) {
         <div class="course-detail-meta">
           <div class="course-detail-meta-item"><small>Duration</small><strong>${escapeHtml(course.duration)}</strong></div>
           <div class="course-detail-meta-item"><small>Eligibility</small><strong>${escapeHtml(course.eligibility)}</strong></div>
-          <div class="course-detail-meta-item"><small>Category</small><strong>${escapeHtml(course.category)}</strong></div>
-          <div class="course-detail-meta-item"><small>Fees</small><strong>${escapeHtml(course.fee)}</strong></div>
+          <div class="course-detail-meta-item"><small>Course Fees</small><strong>₹${course.feeInstallment.toLocaleString('en-IN')}</strong></div>
+          <div class="course-detail-meta-item"><small>Lumpsum (save 10%)</small><strong>₹${course.feeLumpsum.toLocaleString('en-IN')}</strong></div>
         </div>
         <div class="course-detail-actions">
           <a href="#" data-wa data-wa-course="${escapeHtml(course.name)}" class="btn btn-accent btn-lg">

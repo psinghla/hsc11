@@ -1,17 +1,387 @@
 {
   "courses": [
     {
+      "id": "dma",
+      "code": "DMA",
+      "name": "Digital Marketing Assistant",
+      "tagline": "SEO, social media, Meta Ads, Google Ads — the modern marketing stack",
+      "duration": "26 Weeks",
+      "eligibility": "12th Pass",
+      "fee": "₹15,000 (or ₹13,500 lumpsum)",
+      "feeInstallment": 15000,
+      "feeLumpsum": 13500,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "6 Month NSQF",
+      "highlight": "High-demand skill with freelance & remote job potential",
+      "outcomes": [
+        "Digital marketing executive",
+        "Social media manager",
+        "Freelance ads specialist",
+        "E-commerce marketing roles"
+      ],
+      "curriculum": [
+        "Digital Marketing Fundamentals",
+        "SEO & SEM",
+        "Social Media Marketing",
+        "Google Ads & Meta Ads",
+        "Content Marketing",
+        "Email Marketing",
+        "Analytics & Reporting",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "sata",
+      "code": "SATA",
+      "name": "Software/Application Testing Assistant",
+      "tagline": "Master software testing and quality assurance — a fast-growing IT field with strong job demand.",
+      "duration": "26 Weeks",
+      "eligibility": "12th Pass / Diploma",
+      "fee": "₹12,000 (or ₹10,800 lumpsum)",
+      "feeInstallment": 12000,
+      "feeLumpsum": 10800,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "6 Month NSQF",
+      "highlight": "NSQF-aligned 26-week course in software testing fundamentals",
+      "outcomes": [
+        "QA Engineer / Software Tester roles",
+        "Manual and automated testing jobs",
+        "Test analyst positions in IT companies",
+        "Foundation for Selenium / advanced automation",
+        "Freelance testing assignments"
+      ],
+      "curriculum": [
+        "Introduction to Software Testing",
+        "Manual Testing Fundamentals",
+        "Test Case Design and Writing",
+        "Defect Tracking and Bug Reporting",
+        "Test Management Tools",
+        "Automation Testing Basics",
+        "Selenium Introduction",
+        "Project Work and Live Testing"
+      ]
+    },
+    {
+      "id": "aphd",
+      "code": "APHD",
+      "name": "Assistant PHP Developer",
+      "tagline": "Become a PHP developer — build dynamic web applications and database-driven sites.",
+      "duration": "26 Weeks",
+      "eligibility": "12th Pass / Open to all",
+      "fee": "₹12,000 (or ₹10,800 lumpsum)",
+      "feeInstallment": 12000,
+      "feeLumpsum": 10800,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "6 Month NSQF",
+      "highlight": "NSQF-aligned 26-week course in PHP web development",
+      "outcomes": [
+        "PHP Developer roles",
+        "Backend web developer positions",
+        "WordPress/Laravel developer jobs",
+        "Freelance web development",
+        "IT services and product companies"
+      ],
+      "curriculum": [
+        "HTML, CSS, JavaScript fundamentals",
+        "PHP Basics and Syntax",
+        "Working with Forms and Sessions",
+        "MySQL Database Integration",
+        "PHP OOP Concepts",
+        "Building Dynamic Websites",
+        "Introduction to Laravel/CodeIgniter",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "hpia",
+      "code": "HPIA",
+      "name": "Hardware Peripheral and Installation Assistant",
+      "tagline": "Learn computer hardware installation, peripherals, and basic troubleshooting.",
+      "duration": "26 Weeks",
+      "eligibility": "10th Pass minimum",
+      "fee": "₹10,000 (or ₹9,000 lumpsum)",
+      "feeInstallment": 10000,
+      "feeLumpsum": 9000,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "6 Month NSQF",
+      "highlight": "NSQF-aligned 26-week course in hardware peripherals",
+      "outcomes": [
+        "Hardware Installation Technician",
+        "IT Support roles",
+        "Computer assembly and repair jobs",
+        "Field engineer positions",
+        "Computer hardware shop work"
+      ],
+      "curriculum": [
+        "Computer Components and Architecture",
+        "Installing Operating Systems",
+        "Peripheral Devices and Drivers",
+        "Hardware Troubleshooting",
+        "Printer and Scanner Installation",
+        "Network Cable and Connector Basics",
+        "BIOS Configuration",
+        "Practical Lab Work"
+      ]
+    },
+    {
+      "id": "chna",
+      "code": "CHNA",
+      "name": "Computer Hardware and Networking Associate",
+      "tagline": "Hands-on hardware repair, assembly, and networking",
+      "duration": "52 Weeks",
+      "eligibility": "10th Pass minimum",
+      "fee": "₹20,000 (or ₹18,000 lumpsum)",
+      "feeInstallment": 20000,
+      "feeLumpsum": 18000,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "12 Month NSQF",
+      "highlight": "Practical lab training on real hardware",
+      "outcomes": [
+        "Hardware repair technician",
+        "Network setup assistant",
+        "IT support roles",
+        "Open your own computer service shop"
+      ],
+      "curriculum": [
+        "Computer Hardware Fundamentals",
+        "Assembly & Disassembly",
+        "Operating System Installation",
+        "Troubleshooting & Repair",
+        "Networking Basics",
+        "LAN/WAN Configuration",
+        "Network Security Basics",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "ada",
+      "code": "ADA",
+      "name": "Application Development - Android",
+      "tagline": "Build Android apps from scratch — one of the most in-demand mobile development skills.",
+      "duration": "26 Weeks",
+      "eligibility": "Java knowledge recommended",
+      "fee": "₹12,000 (or ₹10,800 lumpsum)",
+      "feeInstallment": 12000,
+      "feeLumpsum": 10800,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "6 Month NSQF",
+      "highlight": "NSQF-aligned 26-week course in Android app development",
+      "outcomes": [
+        "Android App Developer roles",
+        "Mobile application developer jobs",
+        "Freelance app development",
+        "Foundation for Kotlin / Flutter",
+        "IT product company positions"
+      ],
+      "curriculum": [
+        "Java/Kotlin Fundamentals",
+        "Android Studio Setup",
+        "UI Design with XML",
+        "Activities, Intents, Fragments",
+        "Working with Databases (SQLite)",
+        "API Integration",
+        "Publishing to Play Store",
+        "Final App Project"
+      ]
+    },
+    {
+      "id": "pwp",
+      "code": "PWP",
+      "name": "Programming with Python",
+      "tagline": "The most in-demand language for AI, data science, and modern development.",
+      "duration": "12 Weeks",
+      "eligibility": "12th Pass / Open to all",
+      "fee": "₹8,000 (or ₹7,200 lumpsum)",
+      "feeInstallment": 8000,
+      "feeLumpsum": 7200,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": true,
+      "category": "Flagship",
+      "highlight": "NSQF-aligned 12-week course in Python programming",
+      "outcomes": [
+        "Python Developer roles",
+        "Data Analyst / Junior Data Scientist",
+        "Automation & scripting jobs",
+        "Foundation for AI/ML specialization",
+        "Freelance Python development"
+      ],
+      "curriculum": [
+        "Python Fundamentals & Syntax",
+        "Data Types, Variables & Operators",
+        "Control Flow & Functions",
+        "Lists, Tuples, Dictionaries, Sets",
+        "Object-Oriented Programming",
+        "File Handling & Exception Handling",
+        "Working with Libraries (NumPy, Pandas basics)",
+        "Project Work"
+      ]
+    },
+    {
+      "id": "fc",
+      "code": "FC",
+      "name": "Fundamentals of Computers",
+      "tagline": "Start here if you've never touched a computer",
+      "duration": "12 Weeks",
+      "eligibility": "Open to all",
+      "fee": "₹6,000 (or ₹5,400 lumpsum)",
+      "feeInstallment": 6000,
+      "feeLumpsum": 5400,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": true,
+      "category": "Flagship",
+      "highlight": "Perfect first step for absolute beginners",
+      "outcomes": [
+        "Basic computer literacy",
+        "Foundation for any advanced course",
+        "Confidence with digital tools"
+      ],
+      "curriculum": [
+        "Computer Basics",
+        "Windows OS",
+        "Internet & Email",
+        "Basic Office Applications",
+        "Digital Literacy"
+      ]
+    },
+    {
+      "id": "cift",
+      "code": "CIFT",
+      "name": "Course in IT Foundation & Tools",
+      "tagline": "Combine IT skills with financial software expertise",
+      "duration": "26 Weeks",
+      "eligibility": "12th Pass",
+      "fee": "₹10,000 (or ₹9,000 lumpsum)",
+      "feeInstallment": 10000,
+      "feeLumpsum": 9000,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": true,
+      "category": "Flagship",
+      "highlight": "Dual-skill course for finance + tech career paths",
+      "outcomes": [
+        "Accounts executive",
+        "Banking back-office roles",
+        "Financial data analyst (junior)",
+        "Curriculum details available on enquiry"
+      ],
+      "curriculum": [
+        "IT Fundamentals",
+        "Financial Software Tools",
+        "Tally / ERP Basics",
+        "Excel for Finance",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "ccba",
+      "code": "CCBA",
+      "name": "Certificate Course in Computer Basics and Accounting",
+      "tagline": "Computer applications tailored for business operations",
+      "duration": "26 Weeks",
+      "eligibility": "12th Pass",
+      "fee": "₹10,000 (or ₹9,000 lumpsum)",
+      "feeInstallment": 10000,
+      "feeLumpsum": 9000,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": true,
+      "category": "Flagship",
+      "highlight": "Business-focused computer skills",
+      "outcomes": [
+        "Business office assistant",
+        "Operations executive",
+        "Curriculum details available on enquiry"
+      ],
+      "curriculum": [
+        "Business Computing Basics",
+        "MS Office Advanced",
+        "Database for Business",
+        "Business Communication",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "ccwm",
+      "code": "CCWM",
+      "name": "Certificate Course in Web Designing and Multimedia",
+      "tagline": "Master web design, graphics, and multimedia tools — the complete creative web skillset.",
+      "duration": "26 Weeks",
+      "eligibility": "10th Pass minimum",
+      "fee": "₹10,000 (or ₹9,000 lumpsum)",
+      "feeInstallment": 10000,
+      "feeLumpsum": 9000,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "6 Month NSQF",
+      "highlight": "NSQF-aligned 26-week course in web design and multimedia",
+      "outcomes": [
+        "Web Designer roles",
+        "Graphic Designer positions",
+        "Multimedia content creator jobs",
+        "Freelance web/design work",
+        "Foundation for UI/UX career"
+      ],
+      "curriculum": [
+        "HTML and CSS Fundamentals",
+        "Photoshop for Web Design",
+        "Illustrator and Vector Graphics",
+        "Animation Basics (Flash/After Effects)",
+        "Web Page Layout and Responsive Design",
+        "CorelDRAW Essentials",
+        "Video Editing Basics",
+        "Portfolio Project"
+      ]
+    },
+    {
       "id": "cca",
       "code": "CCA",
-      "name": "Certificate in Computer Applications",
+      "name": "Course in Computer Application",
       "tagline": "The foundational govt-recognized course for office and clerk jobs",
-      "duration": "12 Months",
+      "duration": "52 Weeks",
       "eligibility": "11th Pass & 12th Pursuing",
-      "fee": "Contact for fees",
+      "fee": "₹20,000 (or ₹18,000 lumpsum)",
+      "feeInstallment": 20000,
+      "feeLumpsum": 18000,
+      "status": "NSQF Aligned",
       "batchTimings": [
-        "Morning: 9:00 AM – 11:00 AM",
-        "Afternoon: 2:00 PM – 4:00 PM",
-        "Evening: 5:00 PM – 7:00 PM"
+        "Multiple batch options — contact us"
       ],
       "featured": true,
       "category": "Flagship",
@@ -46,15 +416,16 @@
     {
       "id": "cda",
       "code": "CDA",
-      "name": "Certificate in Diploma in Accounting",
+      "name": "Course in Digital Accounting",
       "tagline": "Computers + accounting + Tally with GST — built for accounting careers",
-      "duration": "12 Months",
+      "duration": "52 Weeks",
       "eligibility": "11th Pass & 12th Pursuing",
-      "fee": "Contact for fees",
+      "fee": "₹20,000 (or ₹18,000 lumpsum)",
+      "feeInstallment": 20000,
+      "feeLumpsum": 18000,
+      "status": "NSQF Aligned",
       "batchTimings": [
-        "Morning: 9:00 AM – 11:00 AM",
-        "Afternoon: 2:00 PM – 4:00 PM",
-        "Evening: 5:00 PM – 7:00 PM"
+        "Multiple batch options — contact us"
       ],
       "featured": true,
       "category": "Flagship",
@@ -88,110 +459,21 @@
       ]
     },
     {
-      "id": "acca",
-      "code": "ACCA",
-      "name": "Advance Certificate in Computer Applications",
-      "tagline": "Next-level certification building on CCA fundamentals",
-      "duration": "Contact for duration",
-      "eligibility": "12th Pass / Graduate",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": false,
-      "category": "Advanced",
-      "highlight": "Govt.-recognized advanced computer certification",
-      "outcomes": [
-        "Higher-grade office positions",
-        "Advanced computer operator roles",
-        "Foundation for specialization tracks"
-      ],
-      "curriculum": [
-        "Advanced Computer Concepts",
-        "Office Automation Tools",
-        "Advanced Spreadsheet & Database",
-        "Web Technologies",
-        "Programming Basics",
-        "Project Work",
-        "Curriculum details available on enquiry"
-      ]
-    },
-    {
-      "id": "chna",
-      "code": "CHNA",
-      "name": "Computer Hardware & Networking Assistant",
-      "tagline": "Hands-on hardware repair, assembly, and networking",
-      "duration": "Contact for duration",
-      "eligibility": "10th Pass minimum",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": false,
-      "category": "Hardware",
-      "highlight": "Practical lab training on real hardware",
-      "outcomes": [
-        "Hardware repair technician",
-        "Network setup assistant",
-        "IT support roles",
-        "Open your own computer service shop"
-      ],
-      "curriculum": [
-        "Computer Hardware Fundamentals",
-        "Assembly & Disassembly",
-        "Operating System Installation",
-        "Troubleshooting & Repair",
-        "Networking Basics",
-        "LAN/WAN Configuration",
-        "Network Security Basics",
-        "Curriculum details available on enquiry"
-      ]
-    },
-    {
-      "id": "dma",
-      "code": "DMA",
-      "name": "Digital Marketing Assistant",
-      "tagline": "SEO, social media, Meta Ads, Google Ads — the modern marketing stack",
-      "duration": "Contact for duration",
-      "eligibility": "12th Pass",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": false,
-      "category": "Digital",
-      "highlight": "High-demand skill with freelance & remote job potential",
-      "outcomes": [
-        "Digital marketing executive",
-        "Social media manager",
-        "Freelance ads specialist",
-        "E-commerce marketing roles"
-      ],
-      "curriculum": [
-        "Digital Marketing Fundamentals",
-        "SEO & SEM",
-        "Social Media Marketing",
-        "Google Ads & Meta Ads",
-        "Content Marketing",
-        "Email Marketing",
-        "Analytics & Reporting",
-        "Curriculum details available on enquiry"
-      ],
-      "image": "assets/images/course-dma.png"
-    },
-    {
       "id": "cdp",
       "code": "CDP",
-      "name": "Certificate in Designing & Publishing",
+      "name": "Course in Designing and Publishing",
       "tagline": "Graphic design, layout, and print publishing",
-      "duration": "Contact for duration",
+      "duration": "52 Weeks",
       "eligibility": "10th Pass minimum",
-      "fee": "Contact for fees",
+      "fee": "₹20,000 (or ₹18,000 lumpsum)",
+      "feeInstallment": 20000,
+      "feeLumpsum": 18000,
+      "status": "NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Creative",
+      "category": "12 Month NSQF",
       "highlight": "Build a portfolio with industry-standard design tools",
       "outcomes": [
         "Graphic designer at print/digital studios",
@@ -211,16 +493,19 @@
     {
       "id": "cwt",
       "code": "CWT",
-      "name": "Certificate in Web Technology",
+      "name": "Course in Web Technology",
       "tagline": "Build websites from scratch — HTML, CSS, JS and beyond",
-      "duration": "Contact for duration",
+      "duration": "52 Weeks",
       "eligibility": "12th Pass",
-      "fee": "Contact for fees",
+      "fee": "₹20,000 (or ₹18,000 lumpsum)",
+      "feeInstallment": 20000,
+      "feeLumpsum": 18000,
+      "status": "NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Programming",
+      "category": "12 Month NSQF",
       "highlight": "Project-based learning — build real websites",
       "outcomes": [
         "Junior web developer",
@@ -239,18 +524,83 @@
       ]
     },
     {
-      "id": "c",
-      "code": "C",
-      "name": "C Programming",
-      "tagline": "The foundation language for all systems programming",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "12th Pass / Open",
-      "fee": "Contact for fees",
+      "id": "csd",
+      "code": "CSD",
+      "name": "Course in Software Development",
+      "tagline": "Programming + project work — build software, not just learn it",
+      "duration": "52 Weeks",
+      "eligibility": "12th Pass",
+      "fee": "₹20,000 (or ₹18,000 lumpsum)",
+      "feeInstallment": 20000,
+      "feeLumpsum": 18000,
+      "status": "NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Programming",
+      "category": "12 Month NSQF",
+      "highlight": "Project-driven software development training",
+      "outcomes": [
+        "Junior software developer",
+        "Programming foundation for engineering students",
+        "Curriculum details available on enquiry"
+      ],
+      "curriculum": [
+        "Programming Fundamentals",
+        "Software Engineering Basics",
+        "Database & SQL",
+        "Project Development",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "acca",
+      "code": "ACCA",
+      "name": "Advanced Course in Computer Application",
+      "tagline": "Next-level certification building on CCA fundamentals",
+      "duration": "52 Weeks",
+      "eligibility": "12th Pass / Graduate",
+      "fee": "₹20,000 (or ₹18,000 lumpsum)",
+      "feeInstallment": 20000,
+      "feeLumpsum": 18000,
+      "status": "NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "12 Month NSQF",
+      "highlight": "Govt.-recognized advanced computer certification",
+      "outcomes": [
+        "Higher-grade office positions",
+        "Advanced computer operator roles",
+        "Foundation for specialization tracks"
+      ],
+      "curriculum": [
+        "Advanced Computer Concepts",
+        "Office Automation Tools",
+        "Advanced Spreadsheet & Database",
+        "Web Technologies",
+        "Programming Basics",
+        "Project Work",
+        "Curriculum details available on enquiry"
+      ]
+    },
+    {
+      "id": "c",
+      "code": "C",
+      "name": "C Language",
+      "tagline": "The foundation language for all systems programming",
+      "duration": "4 Weeks",
+      "eligibility": "12th Pass / Open",
+      "fee": "₹2,360 (or ₹2,124 lumpsum)",
+      "feeInstallment": 2360,
+      "feeLumpsum": 2124,
+      "status": "Non NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "Short Course",
       "highlight": "Essential for engineering students & competitive exams",
       "outcomes": [
         "Strong programming foundation",
@@ -268,246 +618,179 @@
       ]
     },
     {
-      "id": "cpp",
-      "code": "C++",
-      "name": "C++ with OOPS",
-      "tagline": "Object-oriented programming for serious developers",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "C knowledge recommended",
-      "fee": "Contact for fees",
+      "id": "c-plus-plus-with-oops",
+      "code": "C PLUS PLUS WITH OOPs",
+      "name": "C++ with OOPs",
+      "tagline": "C++ with OOPs — government-recognized skill certification.",
+      "duration": "8 Weeks",
+      "eligibility": "10th Pass minimum",
+      "fee": "₹4,130 (or ₹3,717 lumpsum)",
+      "feeInstallment": 4130,
+      "feeLumpsum": 3717,
+      "status": "Non NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Programming",
-      "highlight": "OOPS concepts essential for software engineering careers",
+      "category": "Short Course",
+      "highlight": "Non NSQF Aligned course at Hartron Hisar",
       "outcomes": [
-        "Software engineer foundation",
-        "Engineering students' core requirement",
-        "Foundation for Java, C#, modern languages"
+        "Career growth opportunities",
+        "Job-ready skills",
+        "Certificate recognized by employers"
       ],
       "curriculum": [
-        "C++ Basics",
-        "Classes & Objects",
-        "Inheritance & Polymorphism",
-        "Encapsulation & Abstraction",
-        "Templates & STL",
-        "File Handling",
-        "Project Work"
+        "Course Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project Work",
+        "Final Assessment"
       ]
     },
     {
-      "id": "fc",
-      "code": "FC",
-      "name": "Foundation Course in Computers",
-      "tagline": "Start here if you've never touched a computer",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "Open to all",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": true,
-      "category": "Flagship",
-      "highlight": "Perfect first step for absolute beginners",
-      "outcomes": [
-        "Basic computer literacy",
-        "Foundation for any advanced course",
-        "Confidence with digital tools"
-      ],
-      "curriculum": [
-        "Computer Basics",
-        "Windows OS",
-        "Internet & Email",
-        "Basic Office Applications",
-        "Digital Literacy"
-      ]
-    },
-    {
-      "id": "java",
-      "code": "JAVA",
-      "name": "Java Programming",
-      "tagline": "The enterprise programming language — high job demand",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "Programming basics recommended",
-      "fee": "Contact for fees",
+      "id": "php-with-mysql",
+      "code": "PHP WITH MYSQL",
+      "name": "PHP with MySQL",
+      "tagline": "PHP with MySQL — government-recognized skill certification.",
+      "duration": "4 Weeks",
+      "eligibility": "10th Pass minimum",
+      "fee": "₹4,130 (or ₹3,717 lumpsum)",
+      "feeInstallment": 4130,
+      "feeLumpsum": 3717,
+      "status": "Non NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Programming",
-      "highlight": "Most-demanded skill for software jobs",
+      "category": "Short Course",
+      "highlight": "Non NSQF Aligned course at Hartron Hisar",
       "outcomes": [
-        "Java developer",
-        "Backend developer",
-        "Foundation for Android development",
-        "Enterprise application developer"
+        "Career growth opportunities",
+        "Job-ready skills",
+        "Certificate recognized by employers"
       ],
       "curriculum": [
-        "Core Java",
-        "OOPS in Java",
-        "Collections Framework",
-        "Exception Handling",
-        "JDBC & Database",
-        "Servlets & JSP Basics",
-        "Project Work"
+        "Course Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project Work",
+        "Final Assessment"
       ]
     },
     {
-      "id": "python",
-      "code": "PYTHON",
-      "name": "Python Programming",
-      "tagline": "The most in-demand language for AI, data science, and modern development",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "12th Pass / Open to all",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": true,
-      "category": "Flagship",
-      "highlight": "Foundation for AI, ML, Data Science, and web development careers",
-      "outcomes": [
-        "Python developer roles",
-        "Data analyst / Junior data scientist",
-        "Automation & scripting jobs",
-        "Foundation for AI/ML specialization",
-        "Freelance Python development"
-      ],
-      "curriculum": [
-        "Python Fundamentals & Syntax",
-        "Data Types, Variables & Operators",
-        "Control Flow & Functions",
-        "Lists, Tuples, Dictionaries, Sets",
-        "Object-Oriented Programming",
-        "File Handling & Exception Handling",
-        "Working with Libraries (NumPy, Pandas basics)",
-        "Introduction to Web Scraping",
-        "Project Work"
-      ]
-    },
-    {
-      "id": "cift",
-      "code": "CIFT",
-      "name": "Certificate in IT & Financial Tools",
-      "tagline": "Combine IT skills with financial software expertise",
-      "duration": "Contact for duration",
-      "eligibility": "12th Pass",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": true,
-      "category": "Flagship",
-      "highlight": "Dual-skill course for finance + tech career paths",
-      "outcomes": [
-        "Accounts executive",
-        "Banking back-office roles",
-        "Financial data analyst (junior)",
-        "Curriculum details available on enquiry"
-      ],
-      "curriculum": [
-        "IT Fundamentals",
-        "Financial Software Tools",
-        "Tally / ERP Basics",
-        "Excel for Finance",
-        "Curriculum details available on enquiry"
-      ]
-    },
-    {
-      "id": "ccba",
-      "code": "CCBA",
-      "name": "Certificate Course in Business Applications",
-      "tagline": "Computer applications tailored for business operations",
-      "duration": "Contact for duration",
-      "eligibility": "12th Pass",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": true,
-      "category": "Flagship",
-      "highlight": "Business-focused computer skills",
-      "outcomes": [
-        "Business office assistant",
-        "Operations executive",
-        "Curriculum details available on enquiry"
-      ],
-      "curriculum": [
-        "Business Computing Basics",
-        "MS Office Advanced",
-        "Database for Business",
-        "Business Communication",
-        "Curriculum details available on enquiry"
-      ]
-    },
-    {
-      "id": "csd",
-      "code": "CSD",
-      "name": "Certificate in Software Development",
-      "tagline": "Programming + project work — build software, not just learn it",
-      "duration": "Contact for duration",
-      "eligibility": "12th Pass",
-      "fee": "Contact for fees",
+      "id": "core-java",
+      "code": "CORE JAVA",
+      "name": "Core Java",
+      "tagline": "Core Java — government-recognized skill certification.",
+      "duration": "6 Weeks",
+      "eligibility": "10th Pass minimum",
+      "fee": "₹5,310 (or ₹4,779 lumpsum)",
+      "feeInstallment": 5310,
+      "feeLumpsum": 4779,
+      "status": "Non NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Programming",
-      "highlight": "Project-driven software development training",
+      "category": "Short Course",
+      "highlight": "Non NSQF Aligned course at Hartron Hisar",
       "outcomes": [
-        "Junior software developer",
-        "Programming foundation for engineering students",
-        "Curriculum details available on enquiry"
+        "Career growth opportunities",
+        "Job-ready skills",
+        "Certificate recognized by employers"
       ],
       "curriculum": [
-        "Programming Fundamentals",
-        "Software Engineering Basics",
-        "Database & SQL",
-        "Project Development",
-        "Curriculum details available on enquiry"
+        "Course Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project Work",
+        "Final Assessment"
       ]
     },
     {
-      "id": "vbnet",
-      "code": "VB.Net",
-      "name": "Visual Basic .NET",
-      "tagline": "Microsoft's RAD framework for Windows applications",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "Programming basics recommended",
-      "fee": "Contact for fees",
+      "id": "advance-java",
+      "code": "ADVANCE JAVA",
+      "name": "Advance Java",
+      "tagline": "Advanced Java — Servlets, JSP, JDBC, frameworks. Build enterprise-grade applications.",
+      "duration": "8 Weeks",
+      "eligibility": "Core Java knowledge required",
+      "fee": "₹6,490 (or ₹5,841 lumpsum)",
+      "feeInstallment": 6490,
+      "feeLumpsum": 5841,
+      "status": "Non NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Programming",
-      "highlight": "Build Windows desktop apps with Microsoft tools",
+      "category": "Short Course",
+      "highlight": "Advanced Java for serious developers",
       "outcomes": [
-        ".NET developer",
-        "Windows application developer",
-        "Enterprise software roles"
+        "Java Backend Developer roles",
+        "Spring/Hibernate developer jobs",
+        "Enterprise application developer",
+        "IT services and product companies"
       ],
       "curriculum": [
-        "VB.NET Fundamentals",
-        ".NET Framework",
-        "Windows Forms",
-        "Database with ADO.NET",
-        "Project Work"
+        "JDBC and Database Connectivity",
+        "Servlets and JSP",
+        "Session Management",
+        "Spring Framework Introduction",
+        "Hibernate ORM Basics",
+        "REST API Development",
+        "Maven and Build Tools",
+        "Mini Project"
+      ]
+    },
+    {
+      "id": "fa",
+      "code": "FA",
+      "name": "Financial Accounting",
+      "tagline": "Master financial accounting — vital skill for accountants, businesses, and govt jobs.",
+      "duration": "6 Weeks",
+      "eligibility": "12th Pass / Commerce background helpful",
+      "fee": "₹3,540 (or ₹3,186 lumpsum)",
+      "feeInstallment": 3540,
+      "feeLumpsum": 3186,
+      "status": "Non NSQF Aligned",
+      "batchTimings": [
+        "Multiple batch options — contact us"
+      ],
+      "featured": false,
+      "category": "Short Course",
+      "highlight": "Professional financial accounting fundamentals",
+      "outcomes": [
+        "Accountant / Junior Accountant roles",
+        "Bookkeeper positions",
+        "Foundation for CA/CMA preparation",
+        "Accounts assistant jobs"
+      ],
+      "curriculum": [
+        "Principles of Accounting",
+        "Journal and Ledger",
+        "Trial Balance and Final Accounts",
+        "Profit and Loss / Balance Sheet",
+        "Bank Reconciliation Statement",
+        "GST Basics",
+        "Practical Bookkeeping",
+        "Mini Project"
       ]
     },
     {
       "id": "autocad",
-      "code": "AutoCAD",
-      "name": "AutoCAD Design",
+      "code": "AUTOCAD",
+      "name": "AutoCAD",
       "tagline": "Industry-standard CAD for engineers, architects, and designers",
-      "duration": "Short-term (Contact for details)",
+      "duration": "8 Weeks",
       "eligibility": "Open to all",
-      "fee": "Contact for fees",
+      "fee": "₹4,720 (or ₹4,248 lumpsum)",
+      "feeInstallment": 4720,
+      "feeLumpsum": 4248,
+      "status": "Non NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Design",
+      "category": "Short Course",
       "highlight": "Essential for civil/mechanical/architecture careers",
       "outcomes": [
         "AutoCAD draftsman",
@@ -525,121 +808,37 @@
       ]
     },
     {
-      "id": "tally",
-      "code": "Tally",
-      "name": "Tally with GST",
-      "tagline": "India's most-used accounting software with full GST training",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "Basic computer knowledge",
-      "fee": "Contact for fees",
+      "id": "fcs",
+      "code": "FCS",
+      "name": "Fundamentals of Cyber Security",
+      "tagline": "Learn the basics of cyber security — protect systems and become a security professional.",
+      "duration": "6 Weeks",
+      "eligibility": "12th Pass / Open to all",
+      "fee": "₹5,900 (or ₹5,310 lumpsum)",
+      "feeInstallment": 5900,
+      "feeLumpsum": 5310,
+      "status": "Non NSQF Aligned",
       "batchTimings": [
         "Multiple batch options — contact us"
       ],
       "featured": false,
-      "category": "Finance",
-      "highlight": "Most-asked skill for accountant jobs in India",
+      "category": "Short Course",
+      "highlight": "Foundation course in cyber security",
       "outcomes": [
-        "Tally operator",
-        "Junior accountant",
-        "GST filing assistant",
-        "Shop/business accountant"
+        "Cyber Security Analyst (entry-level)",
+        "IT Security Support roles",
+        "Foundation for ethical hacking certification",
+        "Security awareness specialist positions"
       ],
       "curriculum": [
-        "Tally Prime Fundamentals",
-        "Company Creation & Configuration",
-        "Vouchers & Inventory",
-        "GST in Tally",
-        "TDS & TCS",
-        "Financial Statements & Reports",
-        "Payroll Basics"
-      ],
-      "image": "assets/images/course-tally.png"
-    },
-    {
-      "id": "dtp",
-      "code": "DTP",
-      "name": "Desktop Publishing (DTP)",
-      "tagline": "Page layout and print design for the publishing industry",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "Open to all",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": false,
-      "category": "Creative",
-      "highlight": "Skills for print shops, newspapers, publishers",
-      "outcomes": [
-        "DTP operator",
-        "Print shop designer",
-        "Layout artist",
-        "Freelance publishing work"
-      ],
-      "curriculum": [
-        "PageMaker / InDesign",
-        "Photoshop Basics",
-        "CorelDRAW",
-        "Print Layout & Design",
-        "Output & Printing"
-      ]
-    },
-    {
-      "id": "php",
-      "code": "PHP",
-      "name": "PHP with MySQL",
-      "tagline": "Server-side web development — power dynamic websites",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "HTML/CSS basics recommended",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": false,
-      "category": "Programming",
-      "highlight": "Build real web applications and CMS sites",
-      "outcomes": [
-        "PHP developer",
-        "WordPress developer",
-        "Freelance web developer",
-        "Full-stack web roles"
-      ],
-      "curriculum": [
-        "PHP Fundamentals",
-        "Forms & Validation",
-        "MySQL Database",
-        "CRUD Operations",
-        "Sessions & Authentication",
-        "Project Work"
-      ]
-    },
-    {
-      "id": "android",
-      "code": "ANDROID",
-      "name": "Android App Development",
-      "tagline": "Build mobile apps for India's largest mobile platform",
-      "duration": "Short-term (Contact for details)",
-      "eligibility": "Java knowledge recommended",
-      "fee": "Contact for fees",
-      "batchTimings": [
-        "Multiple batch options — contact us"
-      ],
-      "featured": false,
-      "category": "Mobile",
-      "highlight": "Build apps you can actually publish on Play Store",
-      "outcomes": [
-        "Android developer",
-        "Mobile app developer",
-        "Freelance app development",
-        "Startup engineering roles"
-      ],
-      "curriculum": [
-        "Android Studio Setup",
-        "Activities & Layouts",
-        "UI Components",
-        "Data Storage",
-        "API Integration",
-        "Publishing to Play Store",
-        "Project App Development"
+        "Introduction to Cyber Security",
+        "Types of Cyber Threats",
+        "Network Security Basics",
+        "Cryptography Fundamentals",
+        "Web Application Security",
+        "Incident Response Basics",
+        "Tools Overview (Wireshark, Nmap)",
+        "Case Studies"
       ]
     }
   ]

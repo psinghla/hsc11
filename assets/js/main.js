@@ -172,6 +172,13 @@ function renderCourseCard(course, basePath = '') {
           ${course.eligibility}
         </span>
       </div>
+      <div class="course-card-fee">
+        <div class="course-card-fee-label">Course Fee</div>
+        <div class="course-card-fee-amount">
+          <strong>₹${course.feeInstallment ? course.feeInstallment.toLocaleString('en-IN') : '—'}</strong>
+          ${course.feeLumpsum ? `<span class="course-card-fee-lumpsum">or ₹${course.feeLumpsum.toLocaleString('en-IN')} lumpsum</span>` : ''}
+        </div>
+      </div>
       <div class="course-card-link">
         View course details
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
@@ -406,4 +413,75 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Re-run WhatsApp link wiring after dynamic content renders
   setTimeout(() => initWhatsAppLinks(), 300);
+});
+
+// ===== Conversion tracking (GA4) =====
+function initConversionTracking() {
+  if (typeof gtag !== 'function') return;
+
+  // Track WhatsApp clicks (highest-value action)
+  document.querySelectorAll('[data-wa], .whatsapp-float, .btn-whatsapp').forEach(el => {
+    el.addEventListener('click', () => {
+      const course = el.getAttribute('data-wa-course') || 'general';
+      gtag('event', 'whatsapp_click', {
+        event_category: 'engagement',
+        event_label: course,
+        value: 1
+      });
+    });
+  });
+
+  // Track phone link clicks
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener('click', () => {
+      gtag('event', 'phone_click', {
+        event_category: 'engagement',
+        event_label: el.href.replace('tel:', ''),
+        value: 1
+      });
+    });
+  });
+
+  // Track Enquire Now button clicks (nav CTA + course CTAs)
+  document.querySelectorAll('.nav-cta, .btn-accent').forEach(el => {
+    el.addEventListener('click', () => {
+      gtag('event', 'enquire_click', {
+        event_category: 'engagement',
+        event_label: el.textContent.trim().slice(0, 40),
+        value: 1
+      });
+    });
+  });
+
+  // Track course-card clicks
+  document.querySelectorAll('a.course-card, .course-card a').forEach(el => {
+    el.addEventListener('click', () => {
+      const card = el.closest('.course-card') || el;
+      const code = card.querySelector('.course-code')?.textContent.trim() || '';
+      const name = card.querySelector('h3, h4')?.textContent.trim() || '';
+      gtag('event', 'course_view', {
+        event_category: 'engagement',
+        event_label: `${code} ${name}`.trim(),
+        value: 1
+      });
+    });
+  });
+
+  // Track form submission on contact page
+  const enquiryForm = document.querySelector('[data-enquiry-form], #enquiry-form, form');
+  if (enquiryForm) {
+    enquiryForm.addEventListener('submit', () => {
+      gtag('event', 'form_submit', {
+        event_category: 'conversion',
+        event_label: 'enquiry_form',
+        value: 1
+      });
+    });
+  }
+}
+
+// Bind it on load + after dynamic re-renders
+document.addEventListener('DOMContentLoaded', () => {
+  initConversionTracking();
+  setTimeout(() => initConversionTracking(), 800);
 });

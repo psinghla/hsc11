@@ -2167,3 +2167,53 @@ section {
     justify-content: center;
   }
 }
+
+/* ==========================================================================
+   Course card fee display
+   ========================================================================== */
+.course-card-fee {
+  margin-top: auto;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, rgba(26, 77, 165, 0.04) 0%, rgba(230, 57, 70, 0.04) 100%);
+  border: 1px solid rgba(26, 77, 165, 0.1);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.course-card-fee-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+}
+
+.course-card-fee-amount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  text-align: right;
+}
+
+.course-card-fee-amount strong {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  line-height: 1;
+}
+
+.course-card-fee-lumpsum {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--color-accent);
+}
+
+@media (max-width: 480px) {
+  .course-card-fee-amount strong { font-size: 1.05rem; }
+  .course-card-fee-lumpsum { font-size: 0.7rem; }
+}
