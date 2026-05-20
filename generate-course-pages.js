@@ -113,11 +113,11 @@ function buildFaqSchema(course) {
   const faqs = [
     {
       q: `What is the duration of the ${course.name} course?`,
-      a: `The ${course.name} (${course.code}) course at Hartron Skill Centre Hisar is ${course.duration}. ${course.batchTimings.join(' ')}.`
+      a: `The ${course.name} (${course.code}) course at Hartron Skill Centre Hisar is ${course.duration}. Multiple batch options are available — contact us for current schedule.`
     },
     {
-      q: `Who is eligible for the ${course.code} course?`,
-      a: `Eligibility for ${course.name} is: ${course.eligibility}. Students from Hisar, Hansi, Adampur, Barwala, Uklana, Agroha, Narnaund and surrounding villages within 40 km are welcome.`
+      q: `What are the fees for the ${course.code} course?`,
+      a: `The ${course.code} course fee is ₹${course.feeInstallment.toLocaleString('en-IN')}. Lumpsum payment is ₹${course.feeLumpsum.toLocaleString('en-IN')} (a saving of ₹${(course.feeInstallment - course.feeLumpsum).toLocaleString('en-IN')}).`
     },
     {
       q: `What are the career outcomes after completing ${course.code}?`,
@@ -152,7 +152,7 @@ function escapeHtml(s) {
 function template(course) {
   const url = `${SITE.domain}/courses/${course.id}`;
   const title = `${course.name} (${course.code}) Course in Hisar | Hartron Skill Centre`;
-  const description = `${course.name} (${course.code}) course at Hartron Skill Centre Hisar. Near Nagori Gate, Hisar. Call ${SITE.phoneDisplay}. Duration: ${course.duration}. Eligibility: ${course.eligibility}. NCVET approved. ${course.tagline}`;
+  const description = `${course.name} (${course.code}) course at Hartron Skill Centre Hisar. Near Nagori Gate, Hisar. Call ${SITE.phoneDisplay}. Duration: ${course.duration}. Fees: ₹${course.feeInstallment.toLocaleString('en-IN')} (or ₹${course.feeLumpsum.toLocaleString('en-IN')} lumpsum). NCVET approved. ${course.tagline}`;
 
   const courseSchema = buildCourseSchema(course);
   const breadcrumbSchema = buildBreadcrumbSchema(course);
@@ -170,11 +170,10 @@ function template(course) {
           <span style="color: #fff;">${escapeHtml(course.code)}</span>
         </div>
         <span class="course-code">${escapeHtml(course.code)}</span>
-        <h1>${escapeHtml(course.name)}</h1>
+        <h1>${escapeHtml(course.code)} <span class="course-h1-divider">—</span> <span class="course-h1-name">${escapeHtml(course.name)}</span></h1>
         <p class="lede">${escapeHtml(course.tagline)}</p>
         <div class="course-detail-meta">
           <div class="course-detail-meta-item"><small>Duration</small><strong>${escapeHtml(course.duration)}</strong></div>
-          <div class="course-detail-meta-item"><small>Eligibility</small><strong>${escapeHtml(course.eligibility)}</strong></div>
           <div class="course-detail-meta-item"><small>Course Fees</small><strong>₹${course.feeInstallment.toLocaleString('en-IN')}</strong></div>
           <div class="course-detail-meta-item"><small>Lumpsum (save 10%)</small><strong>₹${course.feeLumpsum.toLocaleString('en-IN')}</strong></div>
         </div>
@@ -216,8 +215,8 @@ function template(course) {
                 <p>The ${escapeHtml(course.name)} (${escapeHtml(course.code)}) course at Hartron Skill Centre Hisar runs for ${escapeHtml(course.duration)}. Batch options: ${course.batchTimings.map(escapeHtml).join('; ')}.</p>
               </details>
               <details class="faq-item">
-                <summary>Who is eligible for ${escapeHtml(course.code)}?</summary>
-                <p>Eligibility: ${escapeHtml(course.eligibility)}. We welcome students from Hisar, Hansi, Adampur, Barwala, Uklana, Agroha, Narnaund and surrounding villages within 40 km.</p>
+                <summary>What are the fees for ${escapeHtml(course.code)}?</summary>
+                <p>The ${escapeHtml(course.code)} course fee is ₹${course.feeInstallment.toLocaleString('en-IN')}. If you pay in lumpsum (one-time payment), the discounted fee is ₹${course.feeLumpsum.toLocaleString('en-IN')} — a saving of ₹${(course.feeInstallment - course.feeLumpsum).toLocaleString('en-IN')}. We welcome students from Hisar, Hansi, Adampur, Barwala, Uklana, Agroha, Narnaund and surrounding villages within 40 km.</p>
               </details>
               <details class="faq-item">
                 <summary>What career outcomes can I expect after ${escapeHtml(course.code)}?</summary>

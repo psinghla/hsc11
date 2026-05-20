@@ -884,12 +884,13 @@ section {
 
 .course-name {
  font-family: var(--font-display);
- font-weight: 500;
- font-size: 1.375rem;
- line-height: 1.2;
- letter-spacing: -0.015em;
- color: var(--color-text);
- margin-bottom: 8px;
+ font-weight: 700;
+ font-size: 1.85rem;
+ line-height: 1.1;
+ letter-spacing: -0.02em;
+ color: var(--color-primary-dark);
+ margin-bottom: 10px;
+ text-transform: uppercase;
 }
 
 .course-tagline {
@@ -2216,4 +2217,26 @@ section {
 @media (max-width: 480px) {
   .course-card-fee-amount strong { font-size: 1.05rem; }
   .course-card-fee-lumpsum { font-size: 0.7rem; }
+}
+
+/* Course detail H1: CODE — Full Name */
+.course-detail-hero h1 .course-h1-divider {
+  font-weight: 300;
+  opacity: 0.6;
+  margin: 0 8px;
+}
+.course-detail-hero h1 .course-h1-name {
+  font-weight: 500;
+  opacity: 0.95;
+  font-size: 0.7em;
+  letter-spacing: 0;
+}
+
+@media (max-width: 720px) {
+  .course-detail-hero h1 .course-h1-name {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.55em;
+  }
+  .course-detail-hero h1 .course-h1-divider { display: none; }
 }

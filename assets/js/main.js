@@ -156,20 +156,15 @@ function renderCourseCard(course, basePath = '') {
       <div class="course-card-head">
         <div class="course-thumb">${getCategoryIcon(course.category)}</div>
         <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px;">
-          <span class="course-code">${course.code}</span>
           <span class="course-category">${course.category}</span>
         </div>
       </div>
-      <h3 class="course-name">${course.name}</h3>
+      <h3 class="course-name">${course.code}</h3>
       <p class="course-tagline">${course.tagline}</p>
       <div class="course-meta">
         <span class="course-meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           ${course.duration}
-        </span>
-        <span class="course-meta-item">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-          ${course.eligibility}
         </span>
       </div>
       <div class="course-card-fee">
