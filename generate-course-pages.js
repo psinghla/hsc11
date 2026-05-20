@@ -138,7 +138,7 @@ function escapeHtml(s) {
 function template(course) {
   const url = `${SITE.domain}/courses/${course.id}`;
   const title = `${course.name} (${course.code}) Course in Hisar | Hartron Skill Centre`;
-  const description = `Learn ${course.name} at Hartron Skill Centre Hisar. ${course.tagline} Duration: ${course.duration}. Eligibility: ${course.eligibility}. Govt. recognized. Call ${SITE.phoneDisplay}.`;
+  const description = `${course.name} (${course.code}) course at Hartron Skill Centre Hisar. Near Nagori Gate, Hisar. Call ${SITE.phoneDisplay}. Duration: ${course.duration}. Eligibility: ${course.eligibility}. NCVET approved. ${course.tagline}`;
 
   const courseSchema = buildCourseSchema(course);
   const breadcrumbSchema = buildBreadcrumbSchema(course);
@@ -256,10 +256,19 @@ function template(course) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DZG7KC9W6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1DZG7KC9W6', { 'anonymize_ip': true });
+  </script>
+
   <!-- Primary Meta -->
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
-  <meta name="keywords" content="${escapeHtml(course.code)} course Hisar, ${escapeHtml(course.name)} Hisar, computer course Hisar, ${escapeHtml(course.name)} Haryana, Hartron Hisar, NCVET approved ${escapeHtml(course.code)}, ${NEARBY_AREAS.slice(0, 6).join(' computer course, ')} computer course">
+  <meta name="keywords" content="${escapeHtml(course.code)} course Hisar, ${escapeHtml(course.name)} Hisar, ${escapeHtml(course.name)} course fees, computer course Hisar, ${escapeHtml(course.name)} Haryana, Hartron Hisar, NCVET approved ${escapeHtml(course.code)}, Hartron Skill Centre ${escapeHtml(course.code)}, ${escapeHtml(course.code)} duration, ${escapeHtml(course.code)} eligibility, ${escapeHtml(course.code)} syllabus, ${escapeHtml(course.code)} certificate, ${NEARBY_AREAS.slice(0, 6).join(' computer course, ')} computer course, government computer course Hisar, NSQF aligned ${escapeHtml(course.code)}, ${escapeHtml(course.category)} course Hisar">
   <meta name="author" content="${SITE.name}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="${url}">
@@ -284,7 +293,11 @@ function template(course) {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css?v=20260516">
+  <link rel="icon" href="../favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">${JSON.stringify(courseSchema, null, 2)}</script>
