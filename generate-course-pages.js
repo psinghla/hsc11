@@ -13,7 +13,7 @@ const SITE = {
   phoneDisplay: '92158-38058',
   phone2: '+919812086917',
   phone2Display: '98120-86917',
-  email: 'info@hartronhisar.com',
+  email: 'satyahartronhisar@gmail.com',
   address: {
     street: 'Between Nagori Gate & Bus Stand, Near Gurudwara',
     locality: 'Hisar',
@@ -21,7 +21,7 @@ const SITE = {
     postalCode: '125001',
     country: 'IN'
   },
-  geo: { lat: 29.1492, lng: 75.7228 },
+  geo: { lat: 29.1566, lng: 75.7275 },
   openingHours: 'Mo-Sa 09:00-19:00',
   founded: 1999,
   alumni: '20000+',
@@ -366,6 +366,7 @@ function template(course) {
             <a href="../courses.html">Courses</a>
             <a href="../about.html">About</a>
             <a href="../gallery.html">Gallery</a>
+            <a href="../blog.html">Blog</a>
             <a href="../contact.html">Contact</a>
             <a href="../contact.html" class="btn btn-accent btn-sm nav-cta">Enquire Now</a>
           </nav>
@@ -402,7 +403,7 @@ function template(course) {
           </a>
           <p>An NCVET-approved, NSQF-aligned computer training institute. A Haryana Government Undertaking — serving Hisar since 1999.</p>
         </div>
-        <div class="footer-col"><h5>Quick Links</h5><ul><li><a href="../index.html">Home</a></li><li><a href="../courses.html">All Courses</a></li><li><a href="../about.html">About Us</a></li><li><a href="../gallery.html">Gallery</a></li><li><a href="../contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h5>Quick Links</h5><ul><li><a href="../index.html">Home</a></li><li><a href="../courses.html">All Courses</a></li><li><a href="../about.html">About Us</a></li><li><a href="../gallery.html">Gallery</a></li><li><a href="../blog.html">Blog</a></li><li><a href="../contact.html">Contact</a></li></ul></div>
         <div class="footer-col"><h5>Popular Courses</h5><ul><li><a href="cca.html">CCA · 12 Months</a></li><li><a href="cda.html">CDA · Accounting</a></li><li><a href="python.html">Python Programming</a></li><li><a href="cift.html">CIFT</a></li><li><a href="ccba.html">CCBA</a></li><li><a href="fc.html">Foundation Course</a></li></ul></div>
         <div class="footer-col"><h5>Get in Touch</h5><ul><li><a href="tel:${SITE.phone}">📞 ${SITE.phoneDisplay}</a></li><li><a href="tel:${SITE.phone2}">📞 ${SITE.phone2Display}</a></li><li><a href="#" data-wa>💬 WhatsApp</a></li><li style="line-height: 1.5; color: rgba(255,255,255,0.7); margin-top: 4px;">${SITE.address.street}, ${SITE.address.locality}</li></ul></div>
       </div>

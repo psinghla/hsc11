@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DZG7KC9W6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1DZG7KC9W6', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Primary Meta -->
+  <title>Hartron Skill Centre Hisar | Govt. Computer Courses CCA, Tally, Python Since 1999</title>
+  <meta name="description" content="Hartron Skill Centre Hisar — NCVET-approved Govt. Computer Institute since 1999. Near Nagori Gate, Hisar. Call 92158-38058. 25 courses including CCA, CDA, Python, Tally, Java, AutoCAD. SETC exempted for Clerk Post.">
+  <meta name="keywords" content="Hartron Hisar, Hartron Skill Centre Hisar, computer course Hisar, CCA course Hisar, CDA course Hisar, NCVET approved Hisar, government computer course Hisar, SETC exemption, Tally course Hisar, Python course Hisar, Java course Hisar, AutoCAD Hisar, computer institute Hisar, Haryana computer course, Hartron franchise Hisar, computer training Hisar, Bhupender Singla Hartron, computer course near me Hisar, Hisar IT institute, NSQF aligned courses Haryana">
+  <meta name="author" content="Hartron Skill Centre, Hisar">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://hartronhisar.in/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hartronhisar.in/">
+  <meta property="og:title" content="Hartron Skill Centre Hisar | Govt. Computer Courses CCA, Tally, Python Since 1999">
+  <meta property="og:description" content="Hartron Skill Centre Hisar — NCVET-approved Govt. Computer Institute since 1999. Near Nagori Gate, Hisar. Call 92158-38058. 25 courses including CCA, CDA, Python, Tally, Java, AutoCAD. SETC exempted for Clerk Post.">
+  <meta property="og:image" content="https://hartronhisar.in/assets/images/og-image.jpg">
+  <meta property="og:site_name" content="Hartron Skill Centre, Hisar">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hartron Skill Centre Hisar | Govt. Computer Courses CCA, Tally, Python Since 1999">
+  <meta name="twitter:description" content="Hartron Skill Centre Hisar — NCVET-approved Govt. Computer Institute since 1999. Near Nagori Gate, Hisar. Call 92158-38058. 25 courses including CCA, CDA, Python, Tally, Java, AutoCAD. SETC exempted for Clerk Post.">
+  <meta name="twitter:image" content="https://hartronhisar.in/assets/images/og-image.jpg">
+
+  <!-- Fonts & styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260516">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOrganization", "@id": "https://hartronhisar.in#organization", "name": "Hartron Skill Centre, Hisar", "alternateName": "HSC Hisar", "url": "https://hartronhisar.in", "logo": "https://hartronhisar.in/assets/images/logo.png", "image": "https://hartronhisar.in/assets/images/og-image.jpg", "description": "Hartron Skill Centre Hisar — NCVET-approved Govt. of Haryana computer education franchise. Serving Hisar and surrounding areas since 1999.", "foundingDate": "1999", "founder": {"@type": "Person", "name": "Bhupender Singla"}, "telephone": "+919215838058", "email": "satyahartronhisar@gmail.com", "address": {"@type": "PostalAddress", "streetAddress": "Between Nagori Gate & Bus Stand, Near Gurudwara", "addressLocality": "Hisar", "addressRegion": "Haryana", "postalCode": "125001", "addressCountry": "IN"}, "geo": {"@type": "GeoCoordinates", "latitude": 29.1566, "longitude": 75.7275}, "areaServed": [{"@type": "City", "name": "Hisar"}, {"@type": "City", "name": "Hisar Cantt"}, {"@type": "City", "name": "Balsamand"}, {"@type": "City", "name": "Mirzapur"}, {"@type": "City", "name": "Khedar"}, {"@type": "City", "name": "Agroha"}, {"@type": "City", "name": "Mangali"}, {"@type": "City", "name": "Nalwa"}, {"@type": "City", "name": "Sisai"}, {"@type": "City", "name": "Adampur"}, {"@type": "City", "name": "Hansi"}, {"@type": "City", "name": "Uklana"}, {"@type": "City", "name": "Barwala"}, {"@type": "City", "name": "Bhuna"}, {"@type": "City", "name": "Narnaund"}], "sameAs": ["https://share.google/2ALIZINPc3PBDrQ7k", "https://www.facebook.com/hartronWorkstationHisar", "https://www.instagram.com/hartronhisar/", "https://jsdl.in/DT-992QEU66MMI"]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://hartronhisar.in#localbusiness", "name": "Hartron Skill Centre, Hisar", "image": "https://hartronhisar.in/assets/images/og-image.jpg", "url": "https://hartronhisar.in", "telephone": "+919215838058", "priceRange": "₹₹", "address": {"@type": "PostalAddress", "streetAddress": "Between Nagori Gate & Bus Stand, Near Gurudwara", "addressLocality": "Hisar", "addressRegion": "Haryana", "postalCode": "125001", "addressCountry": "IN"}, "geo": {"@type": "GeoCoordinates", "latitude": 29.1566, "longitude": 75.7275}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "09:00", "closes": "19:00"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://hartronhisar.in#website", "url": "https://hartronhisar.in", "name": "Hartron Skill Centre, Hisar", "publisher": {"@id": "https://hartronhisar.in#organization"}, "inLanguage": "en-IN", "potentialAction": {"@type": "SearchAction", "target": "https://hartronhisar.in/courses?q={search_term_string}", "query-input": "required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What courses does Hartron Skill Centre Hisar offer?", "acceptedAnswer": {"@type": "Answer", "text": "We offer 25 NCVET-approved computer courses including CCA, CDA, Python, Java, Tally with GST, AutoCAD, Digital Marketing, Web Technology, PHP, Android Development, C, C++, Foundation Course (FC), CIFT, CCBA and more."}}, {"@type": "Question", "name": "Is the Hartron CCA certificate valid for government jobs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Hartron's CCA (Certificate in Computer Applications) is NCVET-approved and grants exemption from the SETC (State Eligibility Test for Computers) written test for Haryana Government Clerk Post recruitment. Our other certificates are also recognized for government, banking, and private sector hiring."}}, {"@type": "Question", "name": "Do you provide placement assistance?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — placement assistance is provided to all enrolled students. With our 20,000+ alumni network spanning government offices, banks, accounting firms, and IT companies across Haryana, we connect graduates to real job opportunities."}}, {"@type": "Question", "name": "What are the eligibility requirements?", "acceptedAnswer": {"@type": "Answer", "text": "Eligibility varies by course. CCA and CDA: 11th Pass or 12th Pursuing. Most short-term courses are open to anyone with basic education. Beginner-friendly Foundation Course (FC) requires no prior knowledge."}}, {"@type": "Question", "name": "Where exactly is Hartron Skill Centre Hisar located?", "acceptedAnswer": {"@type": "Answer", "text": "We are located between Nagori Gate and Bus Stand, near Gurudwara in Hisar, Haryana 125001. Walk-in welcome during working hours (Monday–Saturday, 9 AM – 7 PM). Call 92158-38058 or 98120-86917 for directions."}}, {"@type": "Question", "name": "Do students from nearby towns and villages also study here?", "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Students from Hansi, Adampur, Barwala, Uklana, Agroha, Narnaund, Bhuna, Balsamand, Sisai, Nalwa and surrounding villages within 40 km regularly join our courses. We offer morning, afternoon, and evening batches."}}, {"@type": "Question", "name": "What makes Hartron different from other private computer institutes?", "acceptedAnswer": {"@type": "Answer", "text": "Three things: Government recognition (NCVET + NSQF, not just private certification), 27 years of proven track record (20,000+ alumni), and real job impact — most importantly, the SETC test exemption for Clerk Post that no private institute can offer."}}]}</script>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+    <header class="site-header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top-inner">
+          <a href="index.html" class="brand">
+            <img src="assets/images/logo.png?v=20260516" alt="Hartron Skill Centre Hisar" class="brand-logo">
+            <span class="brand-divider"></span>
+            <img src="assets/images/logo-hartron.png?v=20260516" alt="HARTRON" class="brand-logo-parent">
+          </a>
+          <div class="header-contact">
+            <div class="header-contact-item">
+              <span class="header-contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span class="header-contact-text">
+                <small>Location</small>
+                <strong>Between Nagori Gate & Bus Stand</strong>
+              </span>
+            </div>
+            <a href="tel:+919215838058" class="header-contact-item hide-md">
+              <span class="header-contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <span class="header-contact-text">
+                <small>Call us</small>
+                <strong>92158-38058</strong>
+              </span>
+            </a>
+            <a href="#" data-wa class="btn btn-whatsapp">
+              <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"/></svg>
+              WhatsApp
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-nav-row">
+      <div class="container">
+        <div class="header-nav-inner">
+          <nav class="nav-primary">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="btn btn-accent btn-sm nav-cta">Enquire Now</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg-image"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge">27 years of trust · Govt. of Haryana Undertaking</span>
+          <h1 class="display">
+            Computer Education That Opens <em>Government Jobs</em> and Real Careers.
+            <span class="hero-hindi">हरियाणा सरकार द्वारा मान्यता प्राप्त — हिसार में 1999 से</span>
+          </h1>
+          <p class="lede hero-lede">
+            Hartron Skill Centre, Hisar — an NCVET-approved, NSQF-aligned computer training institute. After CCA from Hartron, the SETC written test for Clerk Post is exempted.
+          </p>
+          <div class="hero-actions">
+            <a href="#" data-wa class="btn btn-accent btn-lg">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"/></svg>
+              Get Free Counselling
+            </a>
+            <a href="courses.html" class="btn btn-outline btn-lg">
+              View All Courses
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <small>Years</small>
+              <strong>27+</strong>
+            </div>
+            <div class="hero-meta-item">
+              <small>Students Trained</small>
+              <strong>20,000+</strong>
+            </div>
+            <div class="hero-meta-item">
+              <small>Courses</small>
+              <strong>25</strong>
+            </div>
+            <div class="hero-meta-item">
+              <small>Recognition</small>
+              <strong>NCVET · NSQF</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-decoration">
+            SETC Exam<br>Exempted
+            <small>For Clerk Post</small>
+          </div>
+          <div class="hero-illustration">
+            <span class="hero-float-badge top-left">
+              <span class="dot"></span>
+              <span>Batches running now</span>
+            </span>
+            <span class="hero-float-badge bottom-right">
+              <span class="dot accent"></span>
+              <span>20,000+ alumni</span>
+            </span>
+            <div class="hero-photo-wrap">
+              <div class="hero-photo-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <circle cx="9" cy="9" r="2"/>
+                  <path d="M21 15l-5-5L5 21"/>
+                </svg>
+                <strong>Hero photo here</strong>
+                <small>Drop your image at /assets/images/hero.jpg</small>
+              </div>
+              <img src="assets/images/hero.jpg?v=20260516" alt="Hartron Skill Centre students learning computer skills" loading="eager" onload="this.previousElementSibling.style.display='none'">
+              <div class="hero-stat-card">
+                <div class="hero-stat-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                  </svg>
+                </div>
+                <div class="hero-stat-card-text">
+                  <strong>27+ Years</strong>
+                  <small>Of Excellence</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES / WHY HARTRON ===== -->
+  <section class="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Why Hartron Hisar</span>
+        <h2>Trust built over <em>27 years</em> — and a recognition that opens job doors.</h2>
+        <p>A government undertaking with national-level approvals. Every certificate from Hartron carries real weight in govt. and private hiring.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h4>NCVET &amp; NSQF Approved</h4>
+          <p>Recognized by the National Council for Vocational Education &amp; Training and aligned with the National Skill Qualification Framework.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a3 3 0 100-6 3 3 0 000 6z"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+          </div>
+          <h4>Govt. Job Eligibility</h4>
+          <p>CCA certificate exempts the SETC written test for Clerk Post — a direct advantage over private institutes.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h4>20,000+ Alumni Network</h4>
+          <p>Over two decades of placing students in government departments, banks, accounting firms, and IT companies across Haryana.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h4>Three Pillar Pedagogy</h4>
+          <p>Concept Clarity. Contextual Familiarity. Application Expertise. Every course is built around these three foundations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED COURSES ===== -->
+  <section class="bg-shapes">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Most Popular Courses</span>
+        <h2>Courses students <em>actually get hired</em> after.</h2>
+        <p>From flagship long-term certificates to focused short-term skills — pick what fits your goal.</p>
+      </div>
+      <div class="courses-grid" data-featured-courses>
+        <!-- Rendered by JS from courses.json -->
+      </div>
+      <div style="text-align: center; margin-top: 48px;">
+        <a href="courses.html" class="btn btn-outline btn-lg">
+          View all 25 courses
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STORY / HEAD'S MESSAGE ===== -->
+  <section class="bg-white" style="border-block: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-image">
+          <!-- TODO: Replace with actual photo of Bhupender Singla -->
+          <img src="assets/images/head.jpg?v=20260516" alt="Bhupender Singla, Head of Hartron Skill Centre Hisar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="story-image-placeholder" style="display:none;">
+            <div>
+              Bhupender Singla<br>
+              <small style="font-family: var(--font-body); font-size: 0.9rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; margin-top: 12px; display: block;">Head, Hartron Hisar</small>
+            </div>
+          </div>
+        </div>
+        <div class="story-content reveal">
+          <span class="eyebrow">From the Head's Desk</span>
+          <h2>"Education built on <em>three pillars</em> — Concept Clarity, Contextual Familiarity, Application Expertise."</h2>
+          <p>We aspire to make our students excel in terms of thought, ideology and performance. To achieve this, my team and I work with commitment and dedication.</p>
+          <p>At Hartron Skill Centre, we truly understand that the final outcome is always in the hands of the student — but we also believe that it is the teacher who can truly direct the student to achieve the desired goal. I take personal interest in what's going on in our classes.</p>
+          <p>I welcome you to join us and feel the blend of quality &amp; innovation that can shape you into a world-class professional.</p>
+          <div class="story-signature">
+            <strong>Bhupender Singla</strong>
+            <small>HEAD · HARTRON SKILL CENTRE, HISAR</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AREAS SERVED (Local SEO) ===== -->
+  <section class="bg-tint" style="padding-block: 64px;">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 32px;">
+        <span class="eyebrow">Serving Hisar &amp; Nearby</span>
+        <h2>Students from across <em>Haryana</em> learn at Hartron Hisar.</h2>
+        <p>Whether you live in Hisar city or come from a nearby town or village, our courses are designed for working hours and travel-friendly batches.</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; max-width: 900px; margin: 0 auto;">
+        <span class="area-pill">Hisar</span>
+        <span class="area-pill">Hisar Cantt</span>
+        <span class="area-pill">Balsamand</span>
+        <span class="area-pill">Mirzapur</span>
+        <span class="area-pill">Khedar</span>
+        <span class="area-pill">Agroha</span>
+        <span class="area-pill">Mangali</span>
+        <span class="area-pill">Nalwa</span>
+        <span class="area-pill">Sisai</span>
+        <span class="area-pill">Adampur</span>
+        <span class="area-pill">Hansi</span>
+        <span class="area-pill">Uklana</span>
+        <span class="area-pill">Barwala</span>
+        <span class="area-pill">Bhuna</span>
+        <span class="area-pill">Narnaund</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ (homepage) ===== -->
+  <section style="padding-block: 80px;">
+    <div class="container container-narrow">
+      <div class="section-header">
+        <span class="eyebrow">Common Questions</span>
+        <h2>What students and parents <em>most often ask</em>.</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What courses does Hartron Skill Centre Hisar offer?</summary>
+          <p>We offer 25 NCVET-approved computer courses including CCA, CDA, Python, Java, Tally with GST, AutoCAD, Digital Marketing, Web Technology, PHP, Android Development, C, C++, Foundation Course (FC), CIFT, CCBA and more. <a href="courses.html">See all courses →</a></p>
+        </details>
+        <details class="faq-item">
+          <summary>Is the Hartron CCA certificate valid for government jobs?</summary>
+          <p>Yes. Hartron's CCA (Certificate in Computer Applications) is NCVET-approved and grants exemption from the SETC (State Eligibility Test for Computers) written test for Haryana Government Clerk Post recruitment. Our other certificates are also recognized for government, banking, and private sector hiring.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you provide placement assistance?</summary>
+          <p>Yes — placement assistance is provided to all enrolled students. With our 20,000+ alumni network spanning government offices, banks, accounting firms, and IT companies across Haryana, we connect graduates to real job opportunities. Career counselling is also available throughout the course.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What are the eligibility requirements?</summary>
+          <p>Eligibility varies by course. CCA and CDA: 11th Pass or 12th Pursuing. Most short-term courses are open to anyone with basic education. Beginner-friendly Foundation Course (FC) requires no prior knowledge. <a href="courses.html">Check specific course eligibility →</a></p>
+        </details>
+        <details class="faq-item">
+          <summary>Where exactly is Hartron Skill Centre Hisar located?</summary>
+          <p>We are located between Nagori Gate and Bus Stand, near Gurudwara in Hisar, Haryana 125001. Walk-in welcome during working hours (Monday–Saturday, 9 AM – 7 PM). Call <a href="tel:+919215838058">92158-38058</a> or <a href="tel:+919812086917">98120-86917</a> for directions.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do students from nearby towns and villages also study here?</summary>
+          <p>Absolutely. Students from Hansi, Adampur, Barwala, Uklana, Agroha, Narnaund, Bhuna, Balsamand, Sisai, Nalwa and surrounding villages within 40 km regularly join our courses. We offer morning, afternoon, and evening batches to accommodate students who commute.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What makes Hartron different from other private computer institutes?</summary>
+          <p>Three things: <strong>Government recognition</strong> (NCVET + NSQF, not just private certification), <strong>27 years of proven track record</strong> (20,000+ alumni), and <strong>real job impact</strong> — most importantly, the SETC test exemption for Clerk Post that no private institute can offer.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number"><em>27</em>+</span>
+          <span class="stat-label">Years of Excellence</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number"><em>20</em>K+</span>
+          <span class="stat-label">Students Trained</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number"><em>25</em></span>
+          <span class="stat-label">Courses Offered</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number"><em>100</em>%</span>
+          <span class="stat-label">Placement Assistance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="bg-dots">
+    <div class="container">
+      <div class="cta-block">
+        <h2>Ready to start your <em>computer career</em>?</h2>
+        <p>Talk to us about courses, fees, batch timings, and admission — completely free counselling. <span class="hindi" style="display: inline-block; margin-top: 8px;">कोर्स, फीस और बैच की जानकारी के लिए संपर्क करें</span></p>
+        <div class="btn-group">
+          <a href="#" data-wa class="btn btn-accent btn-lg">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"/></svg>
+            WhatsApp Us Now
+          </a>
+          <a href="contact.html" class="btn btn-outline btn-lg">Submit Enquiry Form</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark">H</span>
+            <span class="brand-text">
+              <strong>HARTRON</strong>
+              <small style="color: rgba(255,255,255,0.7);">Skill Centre · Hisar</small>
+            </span>
+          </a>
+          <p>An NCVET-approved, NSQF-aligned computer training institute. A Haryana Government Undertaking — serving Hisar since 1999.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">All Courses</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Popular Courses</h5>
+          <ul>
+            <li><a href="courses/cca.html">CCA · 52 Weeks</a></li>
+            <li><a href="courses/cda.html">CDA · Digital Accounting</a></li>
+            <li><a href="courses/pwp.html">PWP · Python</a></li>
+            <li><a href="courses/cift.html">CIFT</a></li>
+            <li><a href="courses/ccba.html">CCBA</a></li>
+            <li><a href="courses/fc.html">FC · Foundation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get in Touch</h5>
+          <ul>
+            <li><a href="tel:+919215838058">📞 92158-38058</a></li>
+            <li><a href="tel:+919812086917">📞 98120-86917</a></li>
+            <li><a href="#" data-wa>💬 WhatsApp</a></li>
+            <li style="line-height: 1.5; color: rgba(255,255,255,0.7); margin-top: 4px;">Between Nagori Gate &amp; Bus Stand, Near Gurudwara, Hisar</li>
+          </ul>
+        </div>
+      </div>
+            <div class="footer-social">
+        <a href="https://share.google/2ALIZINPc3PBDrQ7k" target="_blank" rel="noopener noreferrer" aria-label="Google Business Profile">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/hartronWorkstationHisar" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/hartronhisar/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://jsdl.in/DT-992QEU66MMI" target="_blank" rel="noopener noreferrer" aria-label="Justdial">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><text x="12" y="16" font-family="Arial Black" font-size="10" font-weight="900" text-anchor="middle" fill="white">JD</text></svg>
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="footer-year">2026</span> Hartron Skill Centre, Hisar · Authorised Franchisee of HARTRON (Haryana State Electronics Development Corporation Limited)</div>
+        <div class="footer-recognition">
+          <span>NCVET Approved</span>
+          <span>NSQF Aligned</span>
+          <span>Since 1999</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a href="#" data-wa class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <span class="whatsapp-float-tooltip">Chat with us</span>
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"/></svg>
+  </a>
+
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js?v=20260516"></script>
+</body>
+</html>

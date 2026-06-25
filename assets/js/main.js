@@ -9,9 +9,9 @@ const HARTRON_CONFIG = {
   whatsappAlt: '919812086917',
   phone1: '92158-38058',
   phone2: '98120-86917',
-  email: 'info@hartronhisar.com', // TODO: replace with real email
+  email: 'satyahartronhisar@gmail.com',
   address: 'Between Nagori Gate & Bus Stand, Near Gurudwara, Hisar',
-  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.5!2d75.7228!3d29.1492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSGFydHJvbiBTa2lsbCBDZW50cmUgSGlzYXI!5e0!3m2!1sen!2sin!4v1700000000000'
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13937.095802326188!2d75.72749138925793!3d29.156598395852473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3912338a995d40f9%3A0x2ab81ec1f8b8e84f!2sHartron%20Skill%20Centre%2C%20Since%201999!5e0!3m2!1sen!2sin!4v1782392576329!5m2!1sen!2sin'
 };
 
 // ===== UTILITY: WhatsApp link builder =====
@@ -192,14 +192,49 @@ async function renderFeaturedCourses() {
   container.innerHTML = featured.map(c => renderCourseCard(c, '')).join('');
 }
 
-// ===== Render full course grid with filters =====
+// ===== Escape user input for safe HTML insertion =====
+function escapeHtml(str) {
+  return String(str).replace(/[&<>"']/g, ch => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[ch]));
+}
+
+// ===== Render full course grid with filters + live search =====
 async function renderAllCourses() {
   const container = document.querySelector('[data-all-courses]');
   if (!container) return;
   const courses = await loadCourses();
 
-  // Build filter chips from unique categories
   const filterBar = document.querySelector('[data-filter-bar]');
+  const searchInput = document.querySelector('[data-course-search]');
+
+  let activeCategory = 'All';
+  let query = '';
+
+  // Build a searchable text blob for each course once
+  courses.forEach(c => {
+    c._search = [
+      c.code, c.name, c.tagline, c.category, c.eligibility, c.highlight,
+      (c.curriculum || []).join(' '), (c.outcomes || []).join(' ')
+    ].filter(Boolean).join(' ').toLowerCase();
+  });
+
+  function apply() {
+    let list = courses;
+    if (activeCategory !== 'All') list = list.filter(c => c.category === activeCategory);
+    const q = query.trim().toLowerCase();
+    if (q) list = list.filter(c => c._search.includes(q));
+
+    if (list.length === 0) {
+      container.innerHTML = `<p class="course-no-results">No courses match “<strong>${escapeHtml(query.trim())}</strong>”. Try another term, browse the categories above, or <a href="#" data-wa>ask us on WhatsApp</a>.</p>`;
+      initWhatsAppLinks();
+      return;
+    }
+    container.innerHTML = list.map(c => renderCourseCard(c, '')).join('');
+    if (typeof initConversionTracking === 'function') initConversionTracking();
+  }
+
+  // Filter chips from unique categories
   if (filterBar) {
     const categories = ['All', ...new Set(courses.map(c => c.category))];
     filterBar.innerHTML = categories.map((cat, i) =>
@@ -210,13 +245,25 @@ async function renderAllCourses() {
       if (!e.target.matches('.filter-chip')) return;
       filterBar.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
       e.target.classList.add('active');
-      const filter = e.target.getAttribute('data-filter');
-      const filtered = filter === 'All' ? courses : courses.filter(c => c.category === filter);
-      container.innerHTML = filtered.map(c => renderCourseCard(c, '')).join('');
+      activeCategory = e.target.getAttribute('data-filter');
+      apply();
     });
   }
 
-  container.innerHTML = courses.map(c => renderCourseCard(c, '')).join('');
+  // Search input — also reads ?q= so the schema SearchAction is real
+  if (searchInput) {
+    const initialQ = new URLSearchParams(location.search).get('q');
+    if (initialQ) {
+      searchInput.value = initialQ;
+      query = initialQ;
+    }
+    searchInput.addEventListener('input', () => {
+      query = searchInput.value;
+      apply();
+    });
+  }
+
+  apply();
 }
 
 // ===== Course detail page renderer =====

@@ -60,4 +60,10 @@
 - [About](https://hartronhisar.in/about): History, head's message, three pillars
 - [Courses](https://hartronhisar.in/courses): All 25 courses with filters
 - [Gallery](https://hartronhisar.in/gallery): Classrooms and student life
+- [Blog](https://hartronhisar.in/blog): Guides on government jobs, course selection, and careers
 - [Contact](https://hartronhisar.in/contact): Enquiry form, map, hours
+
+## Blog Posts
+- [SETC Exemption Explained](https://hartronhisar.in/blog/setc-exemption-haryana-clerk-jobs): How Hartron's CCA exempts the SETC written test for the Haryana Clerk Post
+- [Computer Courses for Government Jobs in Haryana](https://hartronhisar.in/blog/computer-courses-for-government-jobs-haryana): Which course fits which government role, and why recognition matters
+- [CCA vs CDA vs CCBA](https://hartronhisar.in/blog/cca-vs-cda-vs-ccba): Side-by-side comparison of the three most-asked-about courses
