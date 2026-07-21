@@ -139,14 +139,23 @@
 
         <div class="form-group">
           <label class="form-label" for="college_name">College name *</label>
-          <input class="form-input" type="text" id="college_name" name="college_name" placeholder="e.g. GGJ Govt College, Hisar" required maxlength="150" list="college-list">
-          <datalist id="college-list">
-            <option value="DN College, Hisar"></option>
-            <option value="GGJ Govt College, Hisar"></option>
-            <option value="FC College, Hisar"></option>
-            <option value="Guru Jambheshwar University, Hisar"></option>
-            <option value="CDLU, Sirsa"></option>
-          </datalist>
+          <select class="form-select" id="college_name" name="college_name" required>
+            <option value="">Select your college</option>
+            <option value="DN College, Hisar">DN College, Hisar</option>
+            <option value="GGJ Govt College, Hisar">GGJ Govt College, Hisar</option>
+            <option value="FC College, Hisar">FC College, Hisar</option>
+            <option value="Guru Jambheshwar University, Hisar">Guru Jambheshwar University, Hisar</option>
+            <option value="Govt Polytechnic Mandi Adampur">Govt Polytechnic Mandi Adampur</option>
+            <option value="Guru Daksh Govt Polytechnic, Hisar">Guru Daksh Govt Polytechnic, Hisar</option>
+            <option value="Rajiv Gandhi Govt Polytechnic Narwana">Rajiv Gandhi Govt Polytechnic Narwana</option>
+            <option value="O.M. Institute, Juglan, Hisar">O.M. Institute, Juglan, Hisar</option>
+            <option value="__other">Other (type below)</option>
+          </select>
+        </div>
+
+        <div class="form-group" id="other-college-group" style="display:none;">
+          <label class="form-label" for="college_other">Please type your college name *</label>
+          <input class="form-input" type="text" id="college_other" name="college_other" placeholder="Full college name, e.g. CDLU, Sirsa" maxlength="150">
         </div>
 
         <div class="form-row">
@@ -155,8 +164,9 @@
             <select class="form-select" id="course_name" name="course_name" required>
               <option value="">Select</option>
               <option value="MS Excel">MS Excel</option>
-              <option value="Digital Marketing">Digital Marketing</option>
-              <option value="Tally with GST">Tally with GST</option>
+              <option value="DMA">DMA</option>
+              <option value="AutoCAD">AutoCAD</option>
+              <option value="Tally">Tally</option>
               <option value="Python">Python</option>
               <option value="Web Design">Web Design</option>
               <option value="Computer Basics">Computer Basics</option>
@@ -167,11 +177,8 @@
             <label class="form-label" for="course_dur">Duration *</label>
             <select class="form-select" id="course_dur" name="course_dur" required>
               <option value="">Select</option>
-              <option value="2 weeks">2 weeks</option>
               <option value="4 weeks">4 weeks</option>
               <option value="6 weeks">6 weeks</option>
-              <option value="8 weeks">8 weeks</option>
-              <option value="12 weeks">12 weeks</option>
             </select>
           </div>
         </div>
@@ -258,13 +265,20 @@
     const courseSel = document.getElementById('course_name');
     const otherGrp  = document.getElementById('other-course-group');
     const otherInp  = document.getElementById('course_other');
+    const collSel   = document.getElementById('college_name');
+    const collGrp   = document.getElementById('other-college-group');
+    const collInp   = document.getElementById('college_other');
 
-    courseSel.addEventListener('change', () => {
-      const isOther = courseSel.value === '__other';
-      otherGrp.style.display = isOther ? '' : 'none';
-      otherInp.required = isOther;
-      if (!isOther) otherInp.value = '';
-    });
+    const wireOther = (sel, grp, inp) => {
+      sel.addEventListener('change', () => {
+        const isOther = sel.value === '__other';
+        grp.style.display = isOther ? '' : 'none';
+        inp.required = isOther;
+        if (!isOther) inp.value = '';
+      });
+    };
+    wireOther(courseSel, otherGrp, otherInp);
+    wireOther(collSel, collGrp, collInp);
 
     const showError = (msg) => {
       errBox.textContent = msg;
@@ -285,11 +299,12 @@
 
       const v = (id) => document.getElementById(id).value.trim().replace(/\s+/g, ' ');
 
-      const course = courseSel.value === '__other' ? v('course_other') : courseSel.value;
-      const phone  = v('phone').replace(/\D/g, '');
+      const course  = courseSel.value === '__other' ? v('course_other') : courseSel.value;
+      const college = collSel.value   === '__other' ? v('college_other') : collSel.value;
+      const phone   = v('phone').replace(/\D/g, '');
 
       if (!v('title') || !v('student_name') || !v('father_name') || !v('college_roll')
-          || !v('college_name') || !course || !v('course_dur')) {
+          || !college || !course || !v('course_dur')) {
         return showError('Please fill all the required fields marked *.');
       }
       if (!/^[6-9]\d{9}$/.test(phone)) {
@@ -301,7 +316,7 @@
         student_name: v('student_name'),
         father_name:  v('father_name'),
         college_roll: v('college_roll'),
-        college_name: v('college_name'),
+        college_name: college,
         course_name:  course,
         course_dur:   v('course_dur'),
         phone:        phone,
