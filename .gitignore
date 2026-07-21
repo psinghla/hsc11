@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+
+# Internship letter toolkit - local only, must never be deployed.
+# Contains the certificate template and generator script.
+_letters/
+_letters_out/
