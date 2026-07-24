@@ -63,8 +63,18 @@ function main() {
     execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', env, ...opts }).trim();
 
   try {
-    const baseSha = git(['rev-parse', base]);
-    console.log('Base commit:', baseSha.slice(0, 8), `(${base})`);
+    // Always base on the REMOTE branch tip, not the local ref. The mount's
+    // unlink block can leave the local ref stale (HEAD.lock), so trusting the
+    // local ref would build on an outdated base and get rejected on push.
+    let baseSha;
+    try {
+      git(['fetch', remote, branch]);
+      baseSha = git(['rev-parse', 'FETCH_HEAD']);
+      console.log('Base commit:', baseSha.slice(0, 8), `(${remote}/${branch})`);
+    } catch (e) {
+      baseSha = git(['rev-parse', base]);
+      console.log('Base commit:', baseSha.slice(0, 8), `(${base}, fetch failed — using local)`);
+    }
 
     // Seed temp index from the base tree, then stage only our files.
     git(['read-tree', baseSha]);
@@ -87,8 +97,12 @@ function main() {
     console.log(`Pushed ${commitSha.slice(0, 8)} -> ${remote}/${branch}. Vercel will deploy.`);
     if (pushOut) console.log(pushOut);
 
-    // Keep local branch ref in sync (only when we deployed to it).
-    if (branch === 'main') git(['update-ref', 'refs/heads/main', commitSha]);
+    // Best-effort: keep local branch ref in sync. Safe to fail — the next
+    // deploy re-bases on the remote tip anyway (see fetch above).
+    if (branch === 'main') {
+      try { git(['update-ref', 'refs/heads/main', commitSha]); }
+      catch (_) { console.log('(local ref not updated — non-fatal; deploys re-base on remote)'); }
+    }
   } finally {
     try { fs.unlinkSync(idx); } catch (_) {}
     try { fs.unlinkSync(idx + '.lock'); } catch (_) {}
