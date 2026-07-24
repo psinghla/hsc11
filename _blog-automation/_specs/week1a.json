@@ -1,0 +1,61 @@
+{
+  "courseChecks": [
+    { "id": "cca", "expect": { "duration": "52 Weeks", "feeInstallment": 20000, "feeLumpsum": 18000 } },
+    { "id": "fc", "expect": { "duration": "12 Weeks" } }
+  ],
+  "datePublished": "2026-07-27",
+  "dateDisplay": "27 July 2026",
+  "category": "Government Jobs",
+  "eyebrow": "Government Jobs",
+  "keywords": "CCA SETC exemption, Haryana clerk job computer course, CCA course Hisar, SETC written test exemption, Hartron CCA clerk, computer certificate Haryana government job",
+  "en": {
+    "slug": "cca-setc-clerk-jobs-hisar-guide",
+    "title": "CCA + SETC Exemption: Your Edge for Haryana Clerk Jobs",
+    "titlePlain": "CCA + SETC Exemption: Your Edge for Haryana Clerk Jobs in Hisar",
+    "heroTitle": "CCA + SETC: <em>Your Edge</em> for Haryana Clerk Jobs",
+    "breadcrumbName": "CCA + SETC for Clerk Jobs",
+    "metaDescription": "How Hartron's CCA course and the SETC written-test exemption give you a real advantage for Haryana Clerk posts — who it's for, and exactly what to verify.",
+    "schemaDescription": "A plain guide to how Hartron's CCA course and SETC written-test exemption help candidates applying for Haryana Clerk posts.",
+    "readMins": 8,
+    "cardTitle": "CCA + SETC Exemption: Your Edge for Haryana Clerk Jobs",
+    "cardExcerpt": "How the CCA certificate and SETC exemption let you skip the computer written test for Haryana Clerk posts — who should do it, and what to check first.",
+    "ctaHeading": "Aiming for a <em>Haryana Clerk post</em>?",
+    "ctaText": "Free counselling — bring your target notification and we'll tell you honestly whether CCA and SETC exemption fit your plan.",
+    "ctaPrimaryLabel": "Ask About CCA on WhatsApp",
+    "ctaCourseName": "Course in Computer Application",
+    "ctaSecondaryHref": "../courses/cca.html",
+    "ctaSecondaryLabel": "View CCA Course Details",
+    "bodyHtml": "          <p>If you're preparing for a <strong>Haryana Clerk post</strong>, one qualification quietly does more work than most: Hartron's <a href=\"../courses/cca.html\">CCA (Course in Computer Application)</a>. Its standout benefit is the <strong>SETC written-test exemption for the Clerk Post</strong> — and understanding it early can save you a whole exam stage. Here's the honest, practical picture.</p>\n\n          <h2>What SETC exemption actually means</h2>\n          <p>Many Haryana recruitments require candidates to prove basic computer proficiency. For the Clerk Post, holding a recognised computer qualification like <strong>CCA</strong> can grant a <strong>written-test exemption (SETC)</strong> — meaning you don't have to sit that particular computer test. That's one less hurdle between you and the job. We cover the mechanics in detail in our <a href=\"setc-exemption-haryana-clerk-jobs.html\">SETC exemption guide</a>.</p>\n\n          <blockquote>The exemption isn't a shortcut around merit — it's recognition that you've already proven the computer skills the post asks for.</blockquote>\n\n          <h2>Who should take CCA for this path</h2>\n          <p>CCA suits you if a Haryana Clerk-type notification is your goal and you want a <strong>government-recognised, locally available</strong> qualification. It starts from computer fundamentals, so you don't need prior experience. If you've genuinely never used a computer, a short <a href=\"../courses/fc.html\">Fundamentals of Computers (FC)</a> course first makes CCA smoother.</p>\n\n          <h2>CCA at a glance</h2>\n          <div class=\"post-table-wrap\">\n            <table class=\"post-table\">\n              <thead>\n                <tr><th>Detail</th><th>CCA at Hartron Hisar</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>Duration</td><td>52 weeks</td></tr>\n                <tr><td>Eligibility</td><td>11th Pass &amp; 12th Pursuing</td></tr>\n                <tr><td>Fee</td><td>&#8377;20,000 (or &#8377;18,000 lumpsum)</td></tr>\n                <tr><td>Recognition</td><td>NCVET-approved, NSQF-aligned (Govt. of Haryana undertaking)</td></tr>\n                <tr><td>Standout benefit</td><td>SETC written-test exemption for Clerk Post</td></tr>\n              </tbody>\n            </table>\n          </div>\n          <p class=\"post-note\">Recognition rules and notifications change over time. Always confirm the computer-qualification line in the <strong>official notification</strong> for the exact post you're targeting.</p>\n\n          <h2>How to use this properly</h2>\n          <ol>\n            <li><strong>Find the official notification</strong> for your target Clerk post (e.g. from HSSC).</li>\n            <li><strong>Read the computer-qualification clause</strong> — does it accept CCA or mention SETC exemption?</li>\n            <li><strong>If yes, do CCA</strong> in good time so your certificate is ready before you apply.</li>\n          </ol>\n          <div class=\"post-note\">Not sure how to read the notification, or whether CCA covers your post? Bring it to us — we'll tell you honestly. Call <a href=\"tel:+919215838058\">92158-38058</a>.</div>",
+    "faq": [
+      { "q": "Does CCA guarantee a government job?", "a": "No course guarantees a job. CCA gives you a government-recognised computer qualification and, for the Clerk Post, the SETC written-test exemption — an advantage in the process, not a guarantee." },
+      { "q": "What is the SETC exemption?", "a": "It's a written-test exemption for the computer portion of certain Haryana recruitments, such as the Clerk Post, granted to holders of a recognised computer qualification like CCA. Always confirm it against the official notification for your post." },
+      { "q": "Can I do CCA as a complete beginner?", "a": "Yes. CCA starts from computer fundamentals. If you have never used a computer, the short Fundamentals of Computers (FC) course first will help." },
+      { "q": "How long is CCA and what does it cost at Hartron Hisar?", "a": "CCA is 52 weeks and costs Rs 20,000, or Rs 18,000 as a one-time lumpsum." }
+    ]
+  },
+  "hi": {
+    "slug": "cca-setc-clerk-jobs-hisar-guide-hindi",
+    "title": "CCA + SETC छूट: हरियाणा क्लर्क नौकरी में आपकी बढ़त",
+    "titlePlain": "CCA + SETC छूट: हिसार में हरियाणा क्लर्क नौकरियों के लिए आपकी बढ़त",
+    "heroTitle": "CCA + SETC: हरियाणा क्लर्क नौकरी में <em>आपकी बढ़त</em>",
+    "breadcrumbName": "क्लर्क नौकरी के लिए CCA + SETC",
+    "metaDescription": "हार्ट्रॉन का CCA कोर्स और SETC लिखित परीक्षा छूट हरियाणा क्लर्क पदों के लिए कैसे फायदेमंद है — किसके लिए है, और पहले क्या जांचें।",
+    "schemaDescription": "हार्ट्रॉन के CCA कोर्स और SETC लिखित परीक्षा छूट की सरल जानकारी, जो हरियाणा क्लर्क पद के उम्मीदवारों के लिए उपयोगी है।",
+    "readMins": 8,
+    "cardTitle": "CCA + SETC छूट: हरियाणा क्लर्क नौकरी में बढ़त",
+    "cardExcerpt": "CCA सर्टिफिकेट और SETC छूट से हरियाणा क्लर्क पद की कंप्यूटर लिखित परीक्षा कैसे छूट सकती है — किसे करना चाहिए और पहले क्या जांचें।",
+    "ctaHeading": "<em>हरियाणा क्लर्क पद</em> का लक्ष्य है?",
+    "ctaText": "मुफ़्त काउंसलिंग — अपना टारगेट नोटिफिकेशन लाइए, हम ईमानदारी से बताएंगे कि CCA और SETC छूट आपकी योजना में फिट है या नहीं।",
+    "ctaPrimaryLabel": "WhatsApp पर CCA के बारे में पूछें",
+    "ctaCourseName": "Course in Computer Application",
+    "ctaSecondaryHref": "../courses/cca.html",
+    "ctaSecondaryLabel": "CCA कोर्स विवरण देखें",
+    "bodyHtml": "          <p>अगर आप <strong>हरियाणा क्लर्क पद</strong> की तैयारी कर रहे हैं, तो एक योग्यता बाकी सबसे ज़्यादा काम आती है: हार्ट्रॉन का <a href=\"../courses/cca.html\">CCA (Course in Computer Application)</a>। इसका सबसे बड़ा फायदा है <strong>क्लर्क पद के लिए SETC लिखित परीक्षा छूट</strong> — और इसे पहले समझ लेना आपकी एक पूरी परीक्षा-स्टेज बचा सकता है। यह रही सीधी और व्यावहारिक जानकारी।</p>\n\n          <h2>SETC छूट का असल मतलब</h2>\n          <p>कई हरियाणा भर्तियों में उम्मीदवारों को बुनियादी कंप्यूटर योग्यता साबित करनी होती है। क्लर्क पद के लिए, <strong>CCA</strong> जैसी मान्यता प्राप्त योग्यता होने पर <strong>लिखित परीक्षा छूट (SETC)</strong> मिल सकती है — यानी आपको वह कंप्यूटर परीक्षा नहीं देनी पड़ती। यह नौकरी तक पहुँचने में एक कम रुकावट है। पूरी प्रक्रिया हमने अपने <a href=\"setc-exemption-haryana-clerk-jobs.html\">SETC छूट गाइड</a> में समझाई है।</p>\n\n          <blockquote>छूट मेरिट का शॉर्टकट नहीं है — यह इस बात की पहचान है कि आपने वह कंप्यूटर कौशल पहले ही साबित कर दिया है जो पद मांगता है।</blockquote>\n\n          <h2>यह रास्ता किसके लिए है</h2>\n          <p>CCA आपके लिए सही है अगर हरियाणा क्लर्क जैसी भर्ती आपका लक्ष्य है और आप एक <strong>सरकारी-मान्यता प्राप्त, स्थानीय रूप से उपलब्ध</strong> योग्यता चाहते हैं। यह कंप्यूटर की बुनियादी बातों से शुरू होता है, इसलिए पहले का अनुभव ज़रूरी नहीं। अगर आपने कभी कंप्यूटर इस्तेमाल नहीं किया, तो पहले छोटा <a href=\"../courses/fc.html\">Fundamentals of Computers (FC)</a> कोर्स CCA को आसान बना देता है।</p>\n\n          <h2>CCA एक नज़र में</h2>\n          <div class=\"post-table-wrap\">\n            <table class=\"post-table\">\n              <thead>\n                <tr><th>विवरण</th><th>हार्ट्रॉन हिसार में CCA</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>अवधि</td><td>52 सप्ताह</td></tr>\n                <tr><td>पात्रता</td><td>11वीं पास और 12वीं जारी</td></tr>\n                <tr><td>फीस</td><td>&#8377;20,000 (या &#8377;18,000 एकमुश्त)</td></tr>\n                <tr><td>मान्यता</td><td>NCVET-अनुमोदित, NSQF-संरेखित (हरियाणा सरकार उपक्रम)</td></tr>\n                <tr><td>मुख्य फायदा</td><td>क्लर्क पद के लिए SETC लिखित परीक्षा छूट</td></tr>\n              </tbody>\n            </table>\n          </div>\n          <p class=\"post-note\">मान्यता नियम और नोटिफिकेशन समय के साथ बदलते हैं। जिस पद के लिए आप आवेदन कर रहे हैं उसके <strong>आधिकारिक नोटिफिकेशन</strong> में कंप्यूटर-योग्यता लाइन ज़रूर जांचें।</p>\n\n          <h2>इसका सही उपयोग कैसे करें</h2>\n          <ol>\n            <li>अपने टारगेट क्लर्क पद का <strong>आधिकारिक नोटिफिकेशन</strong> खोजें (जैसे HSSC से)।</li>\n            <li><strong>कंप्यूटर-योग्यता क्लॉज़ पढ़ें</strong> — क्या इसमें CCA स्वीकार है या SETC छूट का ज़िक्र है?</li>\n            <li><strong>अगर हाँ, तो समय रहते CCA करें</strong> ताकि आवेदन से पहले आपका सर्टिफिकेट तैयार हो।</li>\n          </ol>\n          <div class=\"post-note\">नोटिफिकेशन पढ़ने में या यह समझने में मदद चाहिए कि CCA आपके पद को कवर करता है या नहीं? हमारे पास लाइए — हम ईमानदारी से बताएंगे। कॉल करें <a href=\"tel:+919215838058\">92158-38058</a>।</div>",
+    "faq": [
+      { "q": "क्या CCA सरकारी नौकरी की गारंटी देता है?", "a": "कोई भी कोर्स नौकरी की गारंटी नहीं देता। CCA आपको सरकारी-मान्यता प्राप्त कंप्यूटर योग्यता देता है और क्लर्क पद के लिए SETC लिखित परीक्षा छूट — यह प्रक्रिया में बढ़त है, गारंटी नहीं।" },
+      { "q": "SETC छूट क्या है?", "a": "यह कुछ हरियाणा भर्तियों, जैसे क्लर्क पद, के कंप्यूटर भाग के लिए लिखित परीक्षा छूट है, जो CCA जैसी मान्यता प्राप्त योग्यता धारकों को मिलती है। अपने पद के आधिकारिक नोटिफिकेशन से इसे ज़रूर जांचें।" },
+      { "q": "क्या मैं बिल्कुल शुरुआती के तौर पर CCA कर सकता हूँ?", "a": "हाँ। CCA कंप्यूटर की बुनियादी बातों से शुरू होता है। अगर आपने कभी कंप्यूटर इस्तेमाल नहीं किया, तो पहले छोटा Fundamentals of Computers (FC) कोर्स मदद करेगा।" },
+      { "q": "हार्ट्रॉन हिसार में CCA कितने समय का और कितने का है?", "a": "CCA 52 सप्ताह का है और इसकी फीस 20,000 रुपये है, या एकमुश्त भुगतान पर 18,000 रुपये।" }
+    ]
+  }
+}

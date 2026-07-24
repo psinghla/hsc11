@@ -1,0 +1,61 @@
+{
+  "courseChecks": [
+    { "id": "fc", "expect": { "duration": "12 Weeks", "feeInstallment": 6000, "feeLumpsum": 5400 } },
+    { "id": "pwp", "expect": { "duration": "12 Weeks", "feeInstallment": 8000 } }
+  ],
+  "datePublished": "2026-07-27",
+  "dateDisplay": "27 July 2026",
+  "category": "For Parents",
+  "eyebrow": "For Parents",
+  "keywords": "computer course for kids Hisar, first computer course for children, computer classes for school students Hisar, kids coding Hisar, Fundamentals of Computers for children, Python for kids Hisar",
+  "en": {
+    "slug": "first-computer-course-for-school-kids-hisar",
+    "title": "The Best First Computer Course for a School Child in Hisar",
+    "titlePlain": "The Best First Computer Course for a School-Going Child in Hisar",
+    "heroTitle": "The Best <em>First Computer Course</em> for Your Child",
+    "breadcrumbName": "First Computer Course for Kids",
+    "metaDescription": "A parent's guide to your child's first computer course in Hisar — what they actually learn, the right age to start, and how to go from basics to coding without the hype.",
+    "schemaDescription": "A practical guide for parents in Hisar choosing a first computer course for a school-going child, from fundamentals to a first taste of coding.",
+    "readMins": 7,
+    "cardTitle": "The Best First Computer Course for a School Child in Hisar",
+    "cardExcerpt": "A parent's honest guide: what a first computer course actually teaches, the right age to start, and how to move from basics to coding — no hype.",
+    "ctaHeading": "Want to start your child the <em>right way</em>?",
+    "ctaText": "Talk to us about the right first step for your child's age and interest — no pressure, just honest guidance.",
+    "ctaPrimaryLabel": "Ask About Kids' Courses on WhatsApp",
+    "ctaCourseName": "Fundamentals of Computers",
+    "ctaSecondaryHref": "../courses/fc.html",
+    "ctaSecondaryLabel": "View Fundamentals Course",
+    "bodyHtml": "          <p>Every parent in Hisar asks a version of the same question: <em>\"My child should learn computers — but where do we start?\"</em> The honest answer is calmer than the marketing around it. You don't start with \"AI\" or fancy coding. You start with <strong>real fundamentals</strong>, then let genuine interest decide the next step. Here's a clear, no-hype guide.</p>\n\n          <h2>Start with fundamentals, not buzzwords</h2>\n          <p>A child's first course should build <strong>confidence and basics</strong>: how a computer works, the keyboard and mouse, typing, the internet used safely, and simple office tools. Hartron's <a href=\"../courses/fc.html\">Fundamentals of Computers (FC)</a> is built exactly for this — a gentle 12-week start that assumes zero prior experience. Skip this and coding just feels frustrating; do it well and everything after is easier.</p>\n\n          <blockquote>The goal at this age isn't to produce a programmer. It's to make your child comfortable and curious with a computer. Skill follows curiosity.</blockquote>\n\n          <h2>The right age and pace</h2>\n          <p>There's no single \"correct\" age, but a good rule: if your child is comfortable reading and following instructions, they can begin with fundamentals. Keep sessions steady and low-pressure. A child who enjoys it will ask for more — that's your signal to move ahead, not a fixed syllabus.</p>\n\n          <h2>From basics to a first taste of coding</h2>\n          <p>Once fundamentals feel easy and your child is curious about \"how programs are made,\" a beginner-friendly language is the natural next step. Our <a href=\"../courses/pwp.html\">Programming with Python (PWP)</a> is a sensible first taste of real coding — Python reads almost like English, which makes it kind to beginners. There's no rush to get here; it should feel like the next adventure, not a jump.</p>\n\n          <h2>Two honest first steps</h2>\n          <div class=\"post-table-wrap\">\n            <table class=\"post-table\">\n              <thead>\n                <tr><th>Course</th><th>Good for</th><th>Duration &amp; fee at Hartron Hisar</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>Fundamentals of Computers (FC)</td><td>Absolute first step — basics, typing, safe internet</td><td>12 weeks · &#8377;6,000 (&#8377;5,400 lumpsum)</td></tr>\n                <tr><td>Programming with Python (PWP)</td><td>Next step once basics are comfortable — first real coding</td><td>12 weeks · &#8377;8,000 (&#8377;7,200 lumpsum)</td></tr>\n              </tbody>\n            </table>\n          </div>\n          <p class=\"post-note\">Fees and durations are current at the time of writing; confirm the latest with us before enrolling.</p>\n\n          <h2>What to look for in an institute</h2>\n          <ol>\n            <li><strong>Patience with beginners</strong> — a good first course never makes a child feel behind.</li>\n            <li><strong>Hands-on practice</strong>, not just watching — kids learn by doing.</li>\n            <li><strong>Safety basics online</strong> taught early — this matters more every year.</li>\n          </ol>\n          <div class=\"post-note\">Not sure which step fits your child right now? Bring them in for a chat — we'll suggest honestly, even if it's \"wait a bit.\" Call <a href=\"tel:+919215838058\">92158-38058</a>.</div>",
+    "faq": [
+      { "q": "What is the right first computer course for a child?", "a": "Start with fundamentals — how a computer works, typing, safe internet, and basic office tools. Hartron's Fundamentals of Computers (FC) is designed as this gentle first step and assumes no prior experience." },
+      { "q": "At what age can my child start?", "a": "There's no single correct age. If your child can read and follow simple instructions comfortably, they can begin with fundamentals at a relaxed pace." },
+      { "q": "When should a child move on to coding?", "a": "Only once the basics feel easy and the child is curious about how programs are made. Python (PWP) is a beginner-friendly first taste of real coding when that time comes." },
+      { "q": "What does the Fundamentals course cost at Hartron Hisar?", "a": "Fundamentals of Computers (FC) is 12 weeks and costs Rs 6,000, or Rs 5,400 as a one-time lumpsum." }
+    ]
+  },
+  "hi": {
+    "slug": "first-computer-course-for-school-kids-hisar-hindi",
+    "title": "हिसार में बच्चे के लिए पहला कंप्यूटर कोर्स कौन सा?",
+    "titlePlain": "हिसार में स्कूली बच्चे के लिए सबसे अच्छा पहला कंप्यूटर कोर्स",
+    "heroTitle": "आपके बच्चे के लिए सबसे अच्छा <em>पहला कंप्यूटर कोर्स</em>",
+    "breadcrumbName": "बच्चों के लिए पहला कंप्यूटर कोर्स",
+    "metaDescription": "हिसार में अपने बच्चे के पहले कंप्यूटर कोर्स के लिए माता-पिता की गाइड — बच्चा असल में क्या सीखता है, शुरू करने की सही उम्र, और बेसिक्स से कोडिंग तक कैसे बढ़ें।",
+    "schemaDescription": "हिसार में माता-पिता के लिए व्यावहारिक गाइड जो स्कूली बच्चे के पहले कंप्यूटर कोर्स को चुनने में मदद करती है।",
+    "readMins": 7,
+    "cardTitle": "हिसार में बच्चे के लिए पहला कंप्यूटर कोर्स कौन सा?",
+    "cardExcerpt": "माता-पिता के लिए ईमानदार गाइड: पहला कंप्यूटर कोर्स असल में क्या सिखाता है, शुरू करने की सही उम्र, और बेसिक्स से कोडिंग तक कैसे बढ़ें।",
+    "ctaHeading": "बच्चे की शुरुआत <em>सही तरीके</em> से करना चाहते हैं?",
+    "ctaText": "अपने बच्चे की उम्र और रुचि के हिसाब से सही पहला कदम जानने के लिए हमसे बात करें — बिना किसी दबाव के, सिर्फ ईमानदार सलाह।",
+    "ctaPrimaryLabel": "WhatsApp पर बच्चों के कोर्स पूछें",
+    "ctaCourseName": "Fundamentals of Computers",
+    "ctaSecondaryHref": "../courses/fc.html",
+    "ctaSecondaryLabel": "Fundamentals कोर्स देखें",
+    "bodyHtml": "          <p>हिसार में हर माता-पिता का एक ही सवाल होता है: <em>\"बच्चे को कंप्यूटर सीखना चाहिए — पर शुरू कहाँ से करें?\"</em> ईमानदार जवाब मार्केटिंग से कहीं ज़्यादा शांत है। शुरुआत \"AI\" या भारी कोडिंग से नहीं होती। शुरुआत <strong>असली बुनियादी बातों</strong> से होती है, फिर बच्चे की सच्ची रुचि अगला कदम तय करती है। यह रही साफ़, बिना हाइप वाली गाइड।</p>\n\n          <h2>बुनियादी बातों से शुरू करें, बज़वर्ड्स से नहीं</h2>\n          <p>बच्चे के पहले कोर्स को <strong>आत्मविश्वास और बेसिक्स</strong> बनाने चाहिए: कंप्यूटर कैसे काम करता है, कीबोर्ड-माउस, टाइपिंग, सुरक्षित इंटरनेट, और सरल ऑफिस टूल्स। हार्ट्रॉन का <a href=\"../courses/fc.html\">Fundamentals of Computers (FC)</a> ठीक इसी के लिए बना है — 12 सप्ताह की सरल शुरुआत, जो किसी पूर्व अनुभव की मांग नहीं करती। इसे छोड़ देंगे तो कोडिंग सिर्फ़ निराशाजनक लगती है; इसे अच्छे से करेंगे तो आगे सब आसान।</p>\n\n          <blockquote>इस उम्र में लक्ष्य प्रोग्रामर बनाना नहीं है। लक्ष्य है बच्चे को कंप्यूटर के साथ सहज और जिज्ञासु बनाना। कौशल जिज्ञासा के पीछे आता है।</blockquote>\n\n          <h2>सही उम्र और रफ़्तार</h2>\n          <p>कोई एक \"सही\" उम्र नहीं होती, पर एक अच्छा नियम: अगर बच्चा पढ़ने और निर्देश समझने में सहज है, तो वह बुनियादी बातों से शुरू कर सकता है। सत्र नियमित और बिना दबाव के रखें। जिस बच्चे को मज़ा आएगा वह खुद और माँगेगा — यही आगे बढ़ने का संकेत है, कोई तय सिलेबस नहीं।</p>\n\n          <h2>बेसिक्स से कोडिंग की पहली झलक तक</h2>\n          <p>जब बुनियादी बातें आसान लगने लगें और बच्चा जानना चाहे कि \"प्रोग्राम कैसे बनते हैं,\" तब एक शुरुआती-अनुकूल भाषा अगला स्वाभाविक कदम है। हमारा <a href=\"../courses/pwp.html\">Programming with Python (PWP)</a> असली कोडिंग की समझदार पहली झलक है — Python लगभग अंग्रेज़ी जैसा पढ़ा जाता है, जो शुरुआती लोगों के लिए आसान है। यहाँ पहुँचने की कोई जल्दी नहीं; यह अगला रोमांच लगना चाहिए, छलांग नहीं।</p>\n\n          <h2>दो ईमानदार पहले कदम</h2>\n          <div class=\"post-table-wrap\">\n            <table class=\"post-table\">\n              <thead>\n                <tr><th>कोर्स</th><th>किसके लिए अच्छा</th><th>अवधि और फीस (हार्ट्रॉन हिसार)</th></tr>\n              </thead>\n              <tbody>\n                <tr><td>Fundamentals of Computers (FC)</td><td>बिल्कुल पहला कदम — बेसिक्स, टाइपिंग, सुरक्षित इंटरनेट</td><td>12 सप्ताह · &#8377;6,000 (&#8377;5,400 एकमुश्त)</td></tr>\n                <tr><td>Programming with Python (PWP)</td><td>बेसिक्स सहज होने पर अगला कदम — पहली असली कोडिंग</td><td>12 सप्ताह · &#8377;8,000 (&#8377;7,200 एकमुश्त)</td></tr>\n              </tbody>\n            </table>\n          </div>\n          <p class=\"post-note\">फीस और अवधि लिखते समय की मौजूदा हैं; नामांकन से पहले नवीनतम जानकारी हमसे पुष्टि कर लें।</p>\n\n          <h2>संस्थान में क्या देखें</h2>\n          <ol>\n            <li><strong>शुरुआती के साथ धैर्य</strong> — अच्छा पहला कोर्स बच्चे को कभी पीछे महसूस नहीं कराता।</li>\n            <li><strong>हाथों-हाथ अभ्यास</strong>, सिर्फ़ देखना नहीं — बच्चे करके सीखते हैं।</li>\n            <li><strong>ऑनलाइन सुरक्षा की बुनियादी बातें</strong> जल्दी सिखाई जाएँ — यह हर साल और ज़रूरी होता जा रहा है।</li>\n          </ol>\n          <div class=\"post-note\">पक्का नहीं कि अभी आपके बच्चे के लिए कौन सा कदम सही है? उन्हें लेकर आइए — हम ईमानदारी से सुझाएंगे, चाहे वह \"थोड़ा रुकिए\" ही क्यों न हो। कॉल करें <a href=\"tel:+919215838058\">92158-38058</a>।</div>",
+    "faq": [
+      { "q": "बच्चे के लिए सही पहला कंप्यूटर कोर्स कौन सा है?", "a": "बुनियादी बातों से शुरू करें — कंप्यूटर कैसे काम करता है, टाइपिंग, सुरक्षित इंटरनेट, और सरल ऑफिस टूल्स। हार्ट्रॉन का Fundamentals of Computers (FC) इसी सरल पहले कदम के लिए बना है और किसी पूर्व अनुभव की मांग नहीं करता।" },
+      { "q": "मेरा बच्चा किस उम्र में शुरू कर सकता है?", "a": "कोई एक सही उम्र नहीं होती। अगर बच्चा पढ़ने और सरल निर्देश समझने में सहज है, तो वह आराम की रफ़्तार से बुनियादी बातों से शुरू कर सकता है।" },
+      { "q": "बच्चे को कोडिंग की ओर कब बढ़ना चाहिए?", "a": "तभी जब बेसिक्स आसान लगें और बच्चा जानना चाहे कि प्रोग्राम कैसे बनते हैं। उस समय Python (PWP) असली कोडिंग की शुरुआती-अनुकूल पहली झलक है।" },
+      { "q": "हार्ट्रॉन हिसार में Fundamentals कोर्स की फीस कितनी है?", "a": "Fundamentals of Computers (FC) 12 सप्ताह का है और इसकी फीस 6,000 रुपये है, या एकमुश्त भुगतान पर 5,400 रुपये।" }
+    ]
+  }
+}

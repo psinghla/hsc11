@@ -1,0 +1,198 @@
+{
+  "_comment": "Content pipeline for the weekly Monday auto-blog. Each week = 2 topics (A = conversion, B = reach). 'type': 'evergreen' commits straight to main (auto-deploys live); 'circular' commits to a draft branch for approval. 'status': pending | done. The Monday task picks the earliest week where status=pending, writes real EN+HI content, and marks it done. Edit freely: add/remove weeks, change topics, reorder.",
+  "rotation": [
+    {
+      "week": 1,
+      "status": "done",
+      "publishedOn": "2026-07-24",
+      "posts": [
+        {
+          "slug": "cca-setc-clerk-jobs-hisar-guide",
+          "type": "evergreen",
+          "bucket": "govt-career",
+          "category": "Government Jobs",
+          "workingTitle": "How CCA + SETC exemption gives you an edge in Haryana Clerk jobs",
+          "courses": ["cca", "fc"],
+          "angle": "Explain the SETC written-test exemption CCA grants for Clerk Post; who should do it; how it fits the recruitment path. Cross-link existing setc-exemption post."
+        },
+        {
+          "slug": "first-computer-course-for-school-kids-hisar",
+          "type": "evergreen",
+          "bucket": "parent",
+          "category": "For Parents",
+          "workingTitle": "Best first computer course for a school-going child in Hisar",
+          "courses": ["fc", "pwp"],
+          "angle": "Parent-facing. FC as the gentle first step, Python as the next. Reassure non-technical parents; age-appropriateness; what a child actually learns."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "status": "pending",
+      "posts": [
+        {
+          "slug": "career-after-cda-tally-gst-jobs-hisar",
+          "type": "evergreen",
+          "bucket": "career",
+          "category": "Career Guide",
+          "workingTitle": "Career after CDA: Tally + GST accounting jobs explained",
+          "courses": ["cda", "fa"],
+          "angle": "Job roles CDA opens (junior accountant, Tally operator, GST filing), local demand, fee/eligibility from courses.json."
+        },
+        {
+          "slug": "excel-formulas-every-job-seeker-should-know",
+          "type": "evergreen",
+          "bucket": "skill",
+          "category": "Practical Skills",
+          "workingTitle": "10 Excel formulas every job seeker in Haryana should know",
+          "courses": ["cift", "ccba"],
+          "angle": "Practical, useful list of Excel formulas; tie to CIFT/CCBA which teach Excel for offices."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "status": "pending",
+      "posts": [
+        {
+          "slug": "haryana-govt-job-circular-latest",
+          "type": "circular",
+          "bucket": "govt-circular",
+          "category": "Government Jobs",
+          "workingTitle": "Latest Haryana govt job circular + which computer certificate you need",
+          "courses": ["cca", "cda"],
+          "angle": "CIRCULAR — web-search current HSSC/Haryana notifications at run time. State facts (dates, posts, eligibility) only from the official notification; link the source. Map the computer-qualification requirement to a Hartron course. Draft branch, needs approval."
+        },
+        {
+          "slug": "free-ai-tools-for-students-haryana",
+          "type": "evergreen",
+          "bucket": "ai",
+          "category": "AI & Trends",
+          "workingTitle": "Free AI tools every student in Haryana can use",
+          "courses": ["pwp", "fcs"],
+          "angle": "Practical free AI tools for study/productivity; localized; segue to Python (PWP) for those who want to go deeper."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "status": "pending",
+      "posts": [
+        {
+          "slug": "cca-vs-ccba-vs-cift-which-course",
+          "type": "evergreen",
+          "bucket": "career",
+          "category": "Course Comparison",
+          "workingTitle": "CCA vs CCBA vs CIFT: which one fits your goal?",
+          "courses": ["cca", "ccba", "cift"],
+          "angle": "Side-by-side comparison (duration, fee, eligibility, outcomes) pulled from courses.json. Help pick by goal."
+        },
+        {
+          "slug": "protect-yourself-from-online-upi-scams",
+          "type": "evergreen",
+          "bucket": "skill",
+          "category": "Practical Skills",
+          "workingTitle": "How to protect yourself from UPI and online scams",
+          "courses": ["fcs"],
+          "angle": "Trust-building safety guide; tie to Fundamentals of Cyber Security (FCS)."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "status": "pending",
+      "posts": [
+        {
+          "slug": "accounts-clerk-jobs-haryana-which-course",
+          "type": "evergreen",
+          "bucket": "govt-career",
+          "category": "Career Guide",
+          "workingTitle": "Accounts & clerk jobs in Haryana: which course prepares you",
+          "courses": ["cda", "fa", "cca"],
+          "angle": "Map accounts/clerk roles to CDA, FA, CCA. Practical career routing."
+        },
+        {
+          "slug": "is-coding-worth-it-for-a-12-year-old",
+          "type": "evergreen",
+          "bucket": "parent",
+          "category": "For Parents",
+          "workingTitle": "Is coding worth it for a 12-year-old? An honest take",
+          "courses": ["pwp", "fc"],
+          "angle": "Parent-facing, balanced. When coding helps, when to wait; start with FC/Python."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "status": "pending",
+      "posts": [
+        {
+          "slug": "python-career-paths-after-pwp-hisar",
+          "type": "evergreen",
+          "bucket": "career",
+          "category": "Career Guide",
+          "workingTitle": "Career paths after learning Python (PWP) in Hisar",
+          "courses": ["pwp"],
+          "angle": "Roles Python opens: developer, data analyst, automation; realistic local expectations."
+        },
+        {
+          "slug": "computer-courses-in-hisar-how-to-choose",
+          "type": "evergreen",
+          "bucket": "local",
+          "category": "Career Guide",
+          "workingTitle": "Computer courses in Hisar: how to choose the right institute",
+          "courses": ["cca", "fc"],
+          "angle": "Local SEO. What to check (govt recognition, NSQF, fees, location). Position Hartron honestly."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "status": "pending",
+      "posts": [
+        {
+          "slug": "haryana-govt-job-circular-latest-2",
+          "type": "circular",
+          "bucket": "govt-circular",
+          "category": "Government Jobs",
+          "workingTitle": "New Haryana recruitment: computer eligibility decoded",
+          "courses": ["cca", "cda"],
+          "angle": "CIRCULAR — web-search the latest notification at run time; official facts + source link only. Draft branch, needs approval."
+        },
+        {
+          "slug": "make-a-professional-resume-in-ms-word",
+          "type": "evergreen",
+          "bucket": "skill",
+          "category": "Practical Skills",
+          "workingTitle": "Make a professional resume in MS Word (step by step)",
+          "courses": ["fc", "cca"],
+          "angle": "Practical how-to; ties to FC/CCA which teach MS Office."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "status": "pending",
+      "posts": [
+        {
+          "slug": "web-design-careers-after-ccwm-cwt",
+          "type": "evergreen",
+          "bucket": "career",
+          "category": "Career Guide",
+          "workingTitle": "Web design & development careers after CCWM / CWT",
+          "courses": ["ccwm", "cwt"],
+          "angle": "Roles in web/design; freelance angle; courses.json facts."
+        },
+        {
+          "slug": "will-ai-replace-government-jobs",
+          "type": "evergreen",
+          "bucket": "ai",
+          "category": "AI & Trends",
+          "workingTitle": "Will AI replace government jobs? A grounded answer",
+          "courses": ["pwp", "fcs"],
+          "angle": "Balanced, reassuring, evenhanded. Why govt/clerk roles remain; how skills (Python, cyber) future-proof."
+        }
+      ]
+    }
+  ]
+}
