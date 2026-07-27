@@ -28,7 +28,8 @@
     },
     {
       "week": 2,
-      "status": "pending",
+      "status": "done",
+      "publishedOn": "2026-07-27",
       "posts": [
         {
           "slug": "career-after-cda-tally-gst-jobs-hisar",
