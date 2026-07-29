@@ -53,7 +53,9 @@
     },
     {
       "week": 3,
-      "status": "pending",
+      "status": "done",
+      "publishedOn": "2026-07-29",
+      "circularHeld": "haryana-govt-job-circular-latest — built in blog/, awaiting approval to wire + deploy",
       "posts": [
         {
           "slug": "haryana-govt-job-circular-latest",
