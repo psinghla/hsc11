@@ -79,7 +79,8 @@
     },
     {
       "week": 4,
-      "status": "pending",
+      "status": "done",
+      "publishedOn": "2026-08-03",
       "posts": [
         {
           "slug": "cca-vs-ccba-vs-cift-which-course",
