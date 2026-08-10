@@ -104,7 +104,8 @@
     },
     {
       "week": 5,
-      "status": "pending",
+      "status": "done",
+      "publishedOn": "2026-08-10",
       "posts": [
         {
           "slug": "accounts-clerk-jobs-haryana-which-course",
