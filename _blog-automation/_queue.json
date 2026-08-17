@@ -129,7 +129,8 @@
     },
     {
       "week": 6,
-      "status": "pending",
+      "status": "done",
+      "publishedOn": "2026-08-17",
       "posts": [
         {
           "slug": "python-career-paths-after-pwp-hisar",
